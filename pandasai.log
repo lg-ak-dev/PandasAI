@@ -1,0 +1,3741 @@
+2024-04-09 13:59:41 [INFO] Question: how many customers have the same first name?
+
+2024-04-09 13:59:41 [INFO] Running PandasAI with bamboo_llm LLM...
+2024-04-09 13:59:41 [INFO] Prompt ID: d2a7e061-496a-44b3-aa91-4e1b04576d74
+2024-04-09 13:59:41 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-09 13:59:41 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-09 13:59:41 [INFO] Executing Step 1: CacheLookup
+2024-04-09 13:59:41 [INFO] Executing Step 2: PromptGeneration
+2024-04-09 13:59:43 [INFO] Querying without using training data.
+2024-04-09 13:59:44 [INFO] Querying without using training docs.
+2024-04-09 13:59:44 [INFO] Using prompt: <dataframe>
+dfs[0]:1000x12
+Index,Customer Id,First Name,Last Name,Company,City,Country,Phone 1,Phone 2,Email,Subscription Date,Website
+252,E51249bCaC2D3C0,Cindy,Cervantes,"Nguyen, Ruiz and Finley",North Phillip,British Indian Ocean Territory (Chagos Archipelago),784.610.6779x71551,4509038463,-cadx9i3iw@icloud.com,2022-05-24,http://medina-williamson.com/
+851,8aaA7b93ecb0a6a,Bryan,Sutton,Rodgers-Kelly,Burchchester,Puerto Rico,030-173-3258,2795118261,-is_ud9a557c@hotmail.com,2022-05-11,https://waller-humphrey.com/
+811,A5Cd45CD6FEe5A2,Chelsey,Montoya,"Hood, Mora and Murphy",Port Jermaine,Aruba,535.993.8658x5889,4697826237,t25en-gc-@icloud.com,2020-05-18,http://holt.org/
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+
+
+
+
+### QUERY
+ how many customers have the same first name?
+
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-04-09 13:59:44 [INFO] Executing Step 3: CodeGenerator
+2024-04-09 13:59:45 [ERROR] Pipeline failed on step 3: 'NoneType' object has no attribute 'split'
+2024-04-09 14:00:08 [INFO] Question: what is the total number of customers?
+
+2024-04-09 14:00:08 [INFO] Running PandasAI with bamboo_llm LLM...
+2024-04-09 14:00:08 [INFO] Prompt ID: 11572330-2687-4e69-a31b-f5d002ad7899
+2024-04-09 14:00:08 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-09 14:00:08 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-09 14:00:08 [INFO] Executing Step 1: CacheLookup
+2024-04-09 14:00:08 [INFO] Executing Step 2: PromptGeneration
+2024-04-09 14:00:09 [INFO] Querying without using training data.
+2024-04-09 14:00:10 [INFO] Querying without using training docs.
+2024-04-09 14:00:10 [INFO] Using prompt: <dataframe>
+dfs[0]:1000x12
+Index,Customer Id,First Name,Last Name,Company,City,Country,Phone 1,Phone 2,Email,Subscription Date,Website
+267,DA7b906C5aF71d5,Natasha,Lamb,Allen-Brandt,West Baileystad,Senegal,2241677007,(327)867-1874x670,ekdpoyv@hotmail.com,2021-07-26,http://www.conley.com/
+190,81FA5D97d96Fc6c,Hector,Farley,Humphrey-Cain,Lake Marilynhaven,Central African Republic,2501327184,513.008.7582x34158,n2uxkq8zh@aol.com,2021-06-26,https://esparza.com/
+635,A7bdD273350e6C9,Michaela,Velasquez,Gould-Bird,North Elaine,Haiti,5719105810,742-737-4384x38828,zp66h4@zoho.com,2021-08-11,http://leach.com/
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+
+
+
+
+### QUERY
+ what is the total number of customers?
+
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-04-09 14:00:10 [INFO] Executing Step 3: CodeGenerator
+2024-04-09 14:00:12 [ERROR] Pipeline failed on step 3: 'NoneType' object has no attribute 'split'
+2024-04-09 14:07:12 [INFO] Question: how many customers are there? 
+
+2024-04-09 14:07:12 [INFO] Running PandasAI with bamboo_llm LLM...
+2024-04-09 14:07:12 [INFO] Prompt ID: ce7d03e6-2355-4489-8ae8-ab3be6fa7968
+2024-04-09 14:07:12 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-09 14:07:12 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-09 14:07:12 [INFO] Executing Step 1: CacheLookup
+2024-04-09 14:07:12 [INFO] Executing Step 2: PromptGeneration
+2024-04-09 14:07:14 [INFO] Querying without using training data.
+2024-04-09 14:07:15 [INFO] Querying without using training docs.
+2024-04-09 14:07:15 [INFO] Using prompt: <dataframe>
+dfs[0]:1000x12
+Index,Customer Id,First Name,Last Name,Company,City,Country,Phone 1,Phone 2,Email,Subscription Date,Website
+600,0AcD9d0bA01EBB4,Dustin,Leblanc,Roth-Griffith,New Tammy,Tajikistan,1167981629,0450906399,cy6fvv-07@gmail.com,2020-07-30,https://www.pena.com/
+171,A1Dd925888dCbEd,Tony,Kent,Lane-Daniel,Colechester,Palau,5340510727,2581520991,y14vdrk0c9@outlook.com,2020-05-10,https://www.krueger-hanna.com/
+340,4EfBeB41A29fA5e,Adam,Elliott,Houston-Woodard,South Soniabury,Brazil,5498707972,2367855302,8pqcmaj@outlook.com,2021-09-28,http://wyatt.com/
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+
+
+
+
+### QUERY
+ how many customers are there? 
+
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-04-09 14:07:15 [INFO] Executing Step 3: CodeGenerator
+2024-04-09 14:07:17 [ERROR] Pipeline failed on step 3: 'NoneType' object has no attribute 'split'
+2024-04-09 14:15:37 [INFO] Question: how many customers are there?
+2024-04-09 14:15:37 [INFO] Running PandasAI with bamboo_llm LLM...
+2024-04-09 14:15:37 [INFO] Prompt ID: 9d4112f6-b740-4568-91c9-3c6144e75ed3
+2024-04-09 14:15:37 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-09 14:15:37 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-09 14:15:37 [INFO] Executing Step 1: CacheLookup
+2024-04-09 14:15:37 [INFO] Executing Step 2: PromptGeneration
+2024-04-09 14:15:39 [INFO] Querying without using training data.
+2024-04-09 14:15:40 [INFO] Querying without using training docs.
+2024-04-09 14:15:40 [INFO] Using prompt: <dataframe>
+dfs[0]:1000x12
+Index,Customer Id,First Name,Last Name,Company,City,Country,Phone 1,Phone 2,Email,Subscription Date,Website
+419,5CAC1538292a55D,Jesus,Ruiz,"Fuentes, Park and Poole",Lake Douglas,Grenada,2593062813,7621036816,knsrfowjkk4@protonmail.com,2022-05-10,https://dudley.info/
+852,5EE87b91F488bEF,Rhonda,Walter,Black Group,Lake Trevorton,Comoros,9189907583,4048194886,ue9q9zg6-iq5@outlook.com,2022-04-22,http://moses.net/
+208,4Ee0B5C383a4f3d,Kathy,Hardy,Stewart-Diaz,East Hunterburgh,Greece,2734705965,5805980309,7t8c9z@icloud.com,2021-05-05,https://www.mercer.com/
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+
+
+
+
+### QUERY
+ how many customers are there?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-04-09 14:15:40 [INFO] Executing Step 3: CodeGenerator
+2024-04-09 14:15:41 [ERROR] Pipeline failed on step 3: 'NoneType' object has no attribute 'split'
+2024-04-09 14:19:32 [INFO] Question: How many customers are there? 
+2024-04-09 14:19:32 [INFO] Running PandasAI with bamboo_llm LLM...
+2024-04-09 14:19:32 [INFO] Prompt ID: acf631b3-39d9-4c56-ade2-09028834c32d
+2024-04-09 14:19:32 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-09 14:19:32 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-09 14:19:32 [INFO] Executing Step 1: CacheLookup
+2024-04-09 14:19:32 [INFO] Executing Step 2: PromptGeneration
+2024-04-09 14:19:33 [INFO] Querying without using training data.
+2024-04-09 14:19:35 [INFO] Querying without using training docs.
+2024-04-09 14:19:35 [INFO] Using prompt: <dataframe>
+dfs[0]:1000x12
+Index,Customer Id,First Name,Last Name,Company,City,Country,Phone 1,Phone 2,Email,Subscription Date,Website
+239,753E24365A51CAC,Fernando,Massey,"Norman, Church and Cortez",Lake Lydiatown,Belarus,+1-054-671-7769x0601,(345)510-7385x8585,8_745tu3fj6@yahoo.com,2021-07-09,https://rowe.com/
+934,774623BCD6f9BB8,Ralph,Mullins,Myers Ltd,South Monica,Finland,+1-178-548-2749x097,729-450-4459x22920,vhdxbj@aol.com,2020-12-25,https://mercado.com/
+350,D85Baf7dAe6aba1,Cesar,Thornton,Lara Ltd,Lake Craigchester,French Polynesia,+1-086-366-1883x533,738.554.5652x77218,0r3-_t@icloud.com,2022-03-22,http://www.roth.com/
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+
+
+
+
+### QUERY
+ How many customers are there? 
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-04-09 14:19:35 [INFO] Executing Step 3: CodeGenerator
+2024-04-09 14:19:36 [ERROR] Pipeline failed on step 3: 'NoneType' object has no attribute 'split'
+2024-04-09 14:22:24 [INFO] Question: how many cities are there? 
+2024-04-09 14:22:24 [INFO] Running PandasAI with bamboo_llm LLM...
+2024-04-09 14:22:24 [INFO] Prompt ID: e9fa5b4d-2d65-42cf-9530-594b2132c43c
+2024-04-09 14:22:24 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-09 14:22:24 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-09 14:22:24 [INFO] Executing Step 1: CacheLookup
+2024-04-09 14:22:24 [INFO] Executing Step 2: PromptGeneration
+2024-04-09 14:22:25 [INFO] Querying without using training data.
+2024-04-09 14:22:26 [INFO] Querying without using training docs.
+2024-04-09 14:22:26 [INFO] Using prompt: <dataframe>
+dfs[0]:1000x12
+Index,Customer Id,First Name,Last Name,Company,City,Country,Phone 1,Phone 2,Email,Subscription Date,Website
+35,B64Cde5cCE8f8D3,Darryl,Estrada,Coleman-Bishop,Santosport,Morocco,4605951845,6441782629,kr0emexc1mc8@aol.com,2021-11-01,https://warner.info/
+313,6F2de1a7EdE2a53,Nina,Sims,"Rangel, Livingston and Patel",Orrfurt,Eritrea,6670987295,0109525798,wvqs1m7i5r02@outlook.com,2021-09-03,http://mcclure.com/
+923,7d719f1bCcaA3Ac,Robert,Brooks,Cuevas Group,Ortizside,Jamaica,2543740508,2899702350,ii0ah_5@zoho.com,2020-04-06,http://marks.info/
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+
+
+
+
+### QUERY
+ how many cities are there? 
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-04-09 14:22:26 [INFO] Executing Step 3: CodeGenerator
+2024-04-09 14:22:27 [ERROR] Pipeline failed on step 3: 'NoneType' object has no attribute 'split'
+2024-04-09 14:28:22 [INFO] Question: how many records in the city column?
+
+2024-04-09 14:28:22 [INFO] Running PandasAI with bamboo_llm LLM...
+2024-04-09 14:28:22 [INFO] Prompt ID: a1e9581e-f3f9-4289-88e9-54a63ad2dee0
+2024-04-09 14:28:22 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-09 14:28:22 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-09 14:28:22 [INFO] Executing Step 1: CacheLookup
+2024-04-09 14:28:22 [INFO] Executing Step 2: PromptGeneration
+2024-04-09 14:28:23 [INFO] Querying without using training data.
+2024-04-09 14:28:24 [INFO] Querying without using training docs.
+2024-04-09 14:28:24 [INFO] Using prompt: <dataframe>
+dfs[0]:1000x12
+Index,Customer Id,First Name,Last Name,Company,City,Country,Phone 1,Phone 2,Email,Subscription Date,Website
+187,E9a689c736ef033,Suzanne,Joyce,Giles LLC,Lake Kevin,Guernsey,+1-101-651-8437x6195,837-139-3971x450,eblb7sj@gmail.com,2021-12-19,https://www.washington.biz/
+465,f0cd5Ad2B149F82,Dale,Contreras,"Small, Osborne and Rojas",Lake Troyville,Guinea,+1-282-514-9380x3559,198-377-0945x28270,6_-7o6cova@gmail.com,2020-03-14,http://nichols.org/
+395,89A9A525b79da34,Joe,Skinner,Curtis Inc,Fieldsside,Grenada,(450)955-0268x4381,(589)797-6403,vyolil@hotmail.com,2021-01-18,https://www.carlson-ochoa.com/
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+
+
+
+
+### QUERY
+ how many records in the city column?
+
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-04-09 14:28:24 [INFO] Executing Step 3: CodeGenerator
+2024-04-09 14:28:25 [ERROR] Pipeline failed on step 3: 'NoneType' object has no attribute 'split'
+2024-04-09 14:29:58 [INFO] Question: Which are the top 5 countries by sales?
+2024-04-09 14:29:58 [INFO] Running PandasAI with bamboo_llm LLM...
+2024-04-09 14:29:58 [INFO] Prompt ID: 1bc82761-a1ca-438b-a5bc-4fa606a136cc
+2024-04-09 14:29:58 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-09 14:29:58 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-09 14:29:58 [INFO] Executing Step 1: CacheLookup
+2024-04-09 14:29:58 [INFO] Executing Step 2: PromptGeneration
+2024-04-09 14:29:59 [INFO] Querying without using training data.
+2024-04-09 14:30:00 [INFO] Querying without using training docs.
+2024-04-09 14:30:00 [INFO] Using prompt: <dataframe>
+dfs[0]:10x2
+country,sales
+Japan,2300
+Spain,3200
+France,4100
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+
+
+
+
+### QUERY
+ Which are the top 5 countries by sales?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-04-09 14:30:00 [INFO] Executing Step 3: CodeGenerator
+2024-04-09 14:30:01 [ERROR] Pipeline failed on step 3: 'data'
+2024-04-09 14:30:35 [INFO] Question: Which are the top 5 countries by sales?
+2024-04-09 14:30:35 [INFO] Running PandasAI with bamboo_llm LLM...
+2024-04-09 14:30:35 [INFO] Prompt ID: 3412ba86-3cf2-4f2b-a31f-05cc980e1585
+2024-04-09 14:30:35 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-09 14:30:35 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-09 14:30:35 [INFO] Executing Step 1: CacheLookup
+2024-04-09 14:30:35 [INFO] Executing Step 2: PromptGeneration
+2024-04-09 14:30:37 [INFO] Querying without using training data.
+2024-04-09 14:30:38 [INFO] Querying without using training docs.
+2024-04-09 14:30:38 [INFO] Using prompt: <dataframe>
+dfs[0]:10x2
+country,sales
+Italy,2600
+Australia,3200
+United Kingdom,2900
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+
+
+
+
+### QUERY
+ Which are the top 5 countries by sales?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-04-09 14:30:38 [INFO] Executing Step 3: CodeGenerator
+2024-04-09 14:30:39 [ERROR] Pipeline failed on step 3: 'NoneType' object has no attribute 'split'
+2024-04-09 14:43:50 [INFO] Question: Which are the top 5 countries by sales?
+2024-04-09 14:43:50 [INFO] Running PandasAI with bamboo_llm LLM...
+2024-04-09 14:43:50 [INFO] Prompt ID: 20bcf7d3-1e8c-4ca8-afd5-1c91f7f69a6e
+2024-04-09 14:43:50 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-09 14:43:50 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-09 14:43:50 [INFO] Executing Step 1: CacheLookup
+2024-04-09 14:43:50 [INFO] Executing Step 2: PromptGeneration
+2024-04-09 14:43:52 [INFO] Querying without using training data.
+2024-04-09 14:43:53 [INFO] Querying without using training docs.
+2024-04-09 14:43:53 [INFO] Using prompt: <dataframe>
+dfs[0]:10x2
+country,sales
+Australia,2600
+Italy,3200
+United States,2100
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+
+
+
+
+### QUERY
+ Which are the top 5 countries by sales?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-04-09 14:43:53 [INFO] Executing Step 3: CodeGenerator
+2024-04-09 14:43:54 [ERROR] Pipeline failed on step 3: 'NoneType' object has no attribute 'split'
+2024-04-09 14:47:34 [INFO] Question: Which are the top 5 countries by sales?
+2024-04-09 14:47:34 [INFO] Running PandasAI with openai LLM...
+2024-04-09 14:47:34 [INFO] Prompt ID: 4a0307ce-fac3-4cea-b691-044de5d22020
+2024-04-09 14:47:34 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-09 14:47:34 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-09 14:47:34 [INFO] Executing Step 1: CacheLookup
+2024-04-09 14:47:34 [INFO] Executing Step 2: PromptGeneration
+2024-04-09 14:47:36 [INFO] Querying without using training data.
+2024-04-09 14:47:37 [INFO] Querying without using training docs.
+2024-04-09 14:47:37 [INFO] Using prompt: <dataframe>
+dfs[0]:10x2
+country,sales
+Germany,5000
+United States,2300
+Spain,3200
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+
+
+
+
+### QUERY
+ Which are the top 5 countries by sales?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-04-09 14:47:37 [INFO] Executing Step 3: CodeGenerator
+2024-04-09 14:47:38 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-04-09 14:47:38 [INFO] Prompt used:
+            <dataframe>
+dfs[0]:10x2
+country,sales
+Germany,5000
+United States,2300
+Spain,3200
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+
+
+
+
+### QUERY
+ Which are the top 5 countries by sales?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-04-09 14:47:38 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+df = dfs[0]
+top_countries = df.sort_values(by='sales', ascending=False).head(5)['country'].tolist()
+
+result = {"type": "string", "value": f"The top 5 countries by sales are: {', '.join(top_countries)}."}
+            ```
+            
+2024-04-09 14:47:38 [INFO] Executing Step 4: CachePopulation
+2024-04-09 14:47:38 [INFO] Executing Step 5: CodeCleaning
+2024-04-09 14:47:38 [INFO] 
+Code running:
+```
+df = dfs[0]
+top_countries = df.sort_values(by='sales', ascending=False).head(5)['country'].tolist()
+result = {'type': 'string', 'value': f"The top 5 countries by sales are: {', '.join(top_countries)}."}
+        ```
+2024-04-09 14:47:38 [INFO] Executing Step 6: CodeExecution
+2024-04-09 14:47:38 [INFO] Executing Step 7: ResultValidation
+2024-04-09 14:47:38 [INFO] Answer: {'type': 'string', 'value': 'The top 5 countries by sales are: China, United States, Japan, Germany, United Kingdom.'}
+2024-04-09 14:47:38 [INFO] Executing Step 8: ResultParsing
+2024-04-09 14:48:09 [INFO] Question: Which are the top 5 countries by sales?
+2024-04-09 14:48:09 [INFO] Running PandasAI with openai LLM...
+2024-04-09 14:48:09 [INFO] Prompt ID: 9e31053a-31f2-41b6-b304-2f86e25f8fd7
+2024-04-09 14:48:09 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-09 14:48:09 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-09 14:48:09 [INFO] Executing Step 1: CacheLookup
+2024-04-09 14:48:09 [INFO] Using cached response
+2024-04-09 14:48:09 [INFO] Executing Step 2: PromptGeneration
+2024-04-09 14:48:09 [INFO] Executing Step 2: Skipping...
+2024-04-09 14:48:09 [INFO] Executing Step 3: CodeGenerator
+2024-04-09 14:48:09 [INFO] Executing Step 3: Skipping...
+2024-04-09 14:48:09 [INFO] Executing Step 4: CachePopulation
+2024-04-09 14:48:09 [INFO] Executing Step 4: Skipping...
+2024-04-09 14:48:09 [INFO] Executing Step 5: CodeCleaning
+2024-04-09 14:48:09 [INFO] 
+Code running:
+```
+df = dfs[0]
+top_countries = df.sort_values(by='sales', ascending=False).head(5)['country'].tolist()
+result = {'type': 'string', 'value': f"The top 5 countries by sales are: {', '.join(top_countries)}."}
+        ```
+2024-04-09 14:48:09 [INFO] Executing Step 6: CodeExecution
+2024-04-09 14:48:09 [INFO] Executing Step 7: ResultValidation
+2024-04-09 14:48:09 [INFO] Answer: {'type': 'string', 'value': 'The top 5 countries by sales are: China, United States, Japan, Germany, United Kingdom.'}
+2024-04-09 14:48:09 [INFO] Executing Step 8: ResultParsing
+2024-04-09 14:48:48 [INFO] Question: Which are the top 5 countries by sales?
+2024-04-09 14:48:49 [INFO] Running PandasAI with openai LLM...
+2024-04-09 14:48:49 [INFO] Prompt ID: 5b4ea0df-f00d-45b4-983e-49e7871abdb3
+2024-04-09 14:48:49 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-09 14:48:49 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-09 14:48:49 [INFO] Executing Step 1: CacheLookup
+2024-04-09 14:48:49 [INFO] Using cached response
+2024-04-09 14:48:49 [INFO] Executing Step 2: PromptGeneration
+2024-04-09 14:48:49 [INFO] Executing Step 2: Skipping...
+2024-04-09 14:48:49 [INFO] Executing Step 3: CodeGenerator
+2024-04-09 14:48:49 [INFO] Executing Step 3: Skipping...
+2024-04-09 14:48:49 [INFO] Executing Step 4: CachePopulation
+2024-04-09 14:48:49 [INFO] Executing Step 4: Skipping...
+2024-04-09 14:48:49 [INFO] Executing Step 5: CodeCleaning
+2024-04-09 14:48:49 [INFO] 
+Code running:
+```
+df = dfs[0]
+top_countries = df.sort_values(by='sales', ascending=False).head(5)['country'].tolist()
+result = {'type': 'string', 'value': f"The top 5 countries by sales are: {', '.join(top_countries)}."}
+        ```
+2024-04-09 14:48:49 [INFO] Executing Step 6: CodeExecution
+2024-04-09 14:48:49 [INFO] Executing Step 7: ResultValidation
+2024-04-09 14:48:49 [INFO] Answer: {'type': 'string', 'value': 'The top 5 countries by sales are: China, United States, Japan, Germany, United Kingdom.'}
+2024-04-09 14:48:49 [INFO] Executing Step 8: ResultParsing
+2024-04-09 14:49:45 [INFO] Question: Which are the top 5 countries by sales?
+2024-04-09 14:49:45 [INFO] Running PandasAI with openai LLM...
+2024-04-09 14:49:45 [INFO] Prompt ID: 3194bfd3-8553-483f-a9f5-987977817587
+2024-04-09 14:49:45 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-09 14:49:45 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-09 14:49:45 [INFO] Executing Step 1: CacheLookup
+2024-04-09 14:49:45 [INFO] Using cached response
+2024-04-09 14:49:45 [INFO] Executing Step 2: PromptGeneration
+2024-04-09 14:49:45 [INFO] Executing Step 2: Skipping...
+2024-04-09 14:49:45 [INFO] Executing Step 3: CodeGenerator
+2024-04-09 14:49:45 [INFO] Executing Step 3: Skipping...
+2024-04-09 14:49:45 [INFO] Executing Step 4: CachePopulation
+2024-04-09 14:49:45 [INFO] Executing Step 4: Skipping...
+2024-04-09 14:49:45 [INFO] Executing Step 5: CodeCleaning
+2024-04-09 14:49:45 [INFO] 
+Code running:
+```
+df = dfs[0]
+top_countries = df.sort_values(by='sales', ascending=False).head(5)['country'].tolist()
+result = {'type': 'string', 'value': f"The top 5 countries by sales are: {', '.join(top_countries)}."}
+        ```
+2024-04-09 14:49:45 [INFO] Executing Step 6: CodeExecution
+2024-04-09 14:49:45 [INFO] Executing Step 7: ResultValidation
+2024-04-09 14:49:45 [INFO] Answer: {'type': 'string', 'value': 'The top 5 countries by sales are: China, United States, Japan, Germany, United Kingdom.'}
+2024-04-09 14:49:45 [INFO] Executing Step 8: ResultParsing
+2024-04-09 14:54:18 [INFO] Question: Which are the top 5 countries by sales?
+2024-04-09 14:54:18 [INFO] Running PandasAI with openai LLM...
+2024-04-09 14:54:18 [INFO] Prompt ID: bde32816-4642-41a7-a277-84b14baceae6
+2024-04-09 14:54:18 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-09 14:54:18 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-09 14:54:18 [INFO] Executing Step 1: CacheLookup
+2024-04-09 14:54:18 [INFO] Using cached response
+2024-04-09 14:54:18 [INFO] Executing Step 2: PromptGeneration
+2024-04-09 14:54:18 [INFO] Executing Step 2: Skipping...
+2024-04-09 14:54:18 [INFO] Executing Step 3: CodeGenerator
+2024-04-09 14:54:18 [INFO] Executing Step 3: Skipping...
+2024-04-09 14:54:18 [INFO] Executing Step 4: CachePopulation
+2024-04-09 14:54:18 [INFO] Executing Step 4: Skipping...
+2024-04-09 14:54:18 [INFO] Executing Step 5: CodeCleaning
+2024-04-09 14:54:18 [INFO] 
+Code running:
+```
+df = dfs[0]
+top_countries = df.sort_values(by='sales', ascending=False).head(5)['country'].tolist()
+result = {'type': 'string', 'value': f"The top 5 countries by sales are: {', '.join(top_countries)}."}
+        ```
+2024-04-09 14:54:18 [INFO] Executing Step 6: CodeExecution
+2024-04-09 14:54:18 [INFO] Executing Step 7: ResultValidation
+2024-04-09 14:54:18 [INFO] Answer: {'type': 'string', 'value': 'The top 5 countries by sales are: China, United States, Japan, Germany, United Kingdom.'}
+2024-04-09 14:54:18 [INFO] Executing Step 8: ResultParsing
+2024-04-09 14:54:24 [INFO] Question: Which are the top 5 countries by sales?
+2024-04-09 14:54:24 [INFO] Running PandasAI with openai LLM...
+2024-04-09 14:54:24 [INFO] Prompt ID: 375289f8-9621-4771-91d9-7a1ee3f3694e
+2024-04-09 14:54:24 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-09 14:54:24 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-09 14:54:24 [INFO] Executing Step 1: CacheLookup
+2024-04-09 14:54:24 [INFO] Using cached response
+2024-04-09 14:54:24 [INFO] Executing Step 2: PromptGeneration
+2024-04-09 14:54:24 [INFO] Executing Step 2: Skipping...
+2024-04-09 14:54:24 [INFO] Executing Step 3: CodeGenerator
+2024-04-09 14:54:24 [INFO] Executing Step 3: Skipping...
+2024-04-09 14:54:24 [INFO] Executing Step 4: CachePopulation
+2024-04-09 14:54:24 [INFO] Executing Step 4: Skipping...
+2024-04-09 14:54:24 [INFO] Executing Step 5: CodeCleaning
+2024-04-09 14:54:24 [INFO] 
+Code running:
+```
+df = dfs[0]
+top_countries = df.sort_values(by='sales', ascending=False).head(5)['country'].tolist()
+result = {'type': 'string', 'value': f"The top 5 countries by sales are: {', '.join(top_countries)}."}
+        ```
+2024-04-09 14:54:24 [INFO] Executing Step 6: CodeExecution
+2024-04-09 14:54:24 [INFO] Executing Step 7: ResultValidation
+2024-04-09 14:54:24 [INFO] Answer: {'type': 'string', 'value': 'The top 5 countries by sales are: China, United States, Japan, Germany, United Kingdom.'}
+2024-04-09 14:54:24 [INFO] Executing Step 8: ResultParsing
+2024-04-09 14:56:32 [INFO] Question: Which are the top 5 countries by sales?
+2024-04-09 14:56:32 [INFO] Running PandasAI with openai LLM...
+2024-04-09 14:56:32 [INFO] Prompt ID: c6912654-c96d-44bf-9e2b-a23d26ac2cf2
+2024-04-09 14:56:32 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-09 14:56:32 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-09 14:56:32 [INFO] Executing Step 1: CacheLookup
+2024-04-09 14:56:32 [INFO] Using cached response
+2024-04-09 14:56:32 [INFO] Executing Step 2: PromptGeneration
+2024-04-09 14:56:32 [INFO] Executing Step 2: Skipping...
+2024-04-09 14:56:32 [INFO] Executing Step 3: CodeGenerator
+2024-04-09 14:56:32 [INFO] Executing Step 3: Skipping...
+2024-04-09 14:56:32 [INFO] Executing Step 4: CachePopulation
+2024-04-09 14:56:32 [INFO] Executing Step 4: Skipping...
+2024-04-09 14:56:32 [INFO] Executing Step 5: CodeCleaning
+2024-04-09 14:56:32 [INFO] 
+Code running:
+```
+df = dfs[0]
+top_countries = df.sort_values(by='sales', ascending=False).head(5)['country'].tolist()
+result = {'type': 'string', 'value': f"The top 5 countries by sales are: {', '.join(top_countries)}."}
+        ```
+2024-04-09 14:56:32 [INFO] Executing Step 6: CodeExecution
+2024-04-09 14:56:32 [INFO] Executing Step 7: ResultValidation
+2024-04-09 14:56:32 [INFO] Answer: {'type': 'string', 'value': 'The top 5 countries by sales are: China, United States, Japan, Germany, United Kingdom.'}
+2024-04-09 14:56:32 [INFO] Executing Step 8: ResultParsing
+2024-04-09 14:56:44 [INFO] Question: Which are the top 5 countries by sales?
+2024-04-09 14:56:44 [INFO] Running PandasAI with openai LLM...
+2024-04-09 14:56:44 [INFO] Prompt ID: 3c6a42ef-01bb-4d86-9d0c-3ea78f05cc7b
+2024-04-09 14:56:44 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-09 14:56:44 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-09 14:56:44 [INFO] Executing Step 1: CacheLookup
+2024-04-09 14:56:44 [INFO] Using cached response
+2024-04-09 14:56:44 [INFO] Executing Step 2: PromptGeneration
+2024-04-09 14:56:44 [INFO] Executing Step 2: Skipping...
+2024-04-09 14:56:44 [INFO] Executing Step 3: CodeGenerator
+2024-04-09 14:56:44 [INFO] Executing Step 3: Skipping...
+2024-04-09 14:56:44 [INFO] Executing Step 4: CachePopulation
+2024-04-09 14:56:44 [INFO] Executing Step 4: Skipping...
+2024-04-09 14:56:44 [INFO] Executing Step 5: CodeCleaning
+2024-04-09 14:56:44 [INFO] 
+Code running:
+```
+df = dfs[0]
+top_countries = df.sort_values(by='sales', ascending=False).head(5)['country'].tolist()
+result = {'type': 'string', 'value': f"The top 5 countries by sales are: {', '.join(top_countries)}."}
+        ```
+2024-04-09 14:56:44 [INFO] Executing Step 6: CodeExecution
+2024-04-09 14:56:44 [INFO] Executing Step 7: ResultValidation
+2024-04-09 14:56:44 [INFO] Answer: {'type': 'string', 'value': 'The top 5 countries by sales are: China, United States, Japan, Germany, United Kingdom.'}
+2024-04-09 14:56:44 [INFO] Executing Step 8: ResultParsing
+2024-04-09 14:56:44 [INFO] Question: Which are the top 5 countries by sales?
+2024-04-09 14:56:44 [INFO] Running PandasAI with openai LLM...
+2024-04-09 14:56:44 [INFO] Prompt ID: 76f4a2b0-c3aa-46c9-bc22-2d18c386daa8
+2024-04-09 14:56:44 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-09 14:56:44 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-09 14:56:44 [INFO] Executing Step 1: CacheLookup
+2024-04-09 14:56:44 [INFO] Using cached response
+2024-04-09 14:56:44 [INFO] Executing Step 2: PromptGeneration
+2024-04-09 14:56:44 [INFO] Executing Step 2: Skipping...
+2024-04-09 14:56:44 [INFO] Executing Step 3: CodeGenerator
+2024-04-09 14:56:44 [INFO] Executing Step 3: Skipping...
+2024-04-09 14:56:44 [INFO] Executing Step 4: CachePopulation
+2024-04-09 14:56:44 [INFO] Executing Step 4: Skipping...
+2024-04-09 14:56:44 [INFO] Executing Step 5: CodeCleaning
+2024-04-09 14:56:44 [INFO] 
+Code running:
+```
+df = dfs[0]
+top_countries = df.sort_values(by='sales', ascending=False).head(5)['country'].tolist()
+result = {'type': 'string', 'value': f"The top 5 countries by sales are: {', '.join(top_countries)}."}
+        ```
+2024-04-09 14:56:44 [INFO] Executing Step 6: CodeExecution
+2024-04-09 14:56:44 [INFO] Executing Step 7: ResultValidation
+2024-04-09 14:56:44 [INFO] Answer: {'type': 'string', 'value': 'The top 5 countries by sales are: China, United States, Japan, Germany, United Kingdom.'}
+2024-04-09 14:56:44 [INFO] Executing Step 8: ResultParsing
+2024-04-09 14:56:45 [INFO] Question: how many customers are there?
+2024-04-09 14:56:45 [INFO] Running PandasAI with openai LLM...
+2024-04-09 14:56:45 [INFO] Prompt ID: f9580778-6584-42b2-b314-899fd5ad98bc
+2024-04-09 14:56:45 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-09 14:56:45 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-09 14:56:45 [INFO] Executing Step 1: CacheLookup
+2024-04-09 14:56:45 [INFO] Executing Step 2: PromptGeneration
+2024-04-09 14:56:46 [INFO] Querying without using training data.
+2024-04-09 14:56:47 [INFO] Querying without using training docs.
+2024-04-09 14:56:47 [INFO] Using prompt: <dataframe>
+dfs[0]:1000x12
+Index,Customer Id,First Name,Last Name,Company,City,Country,Phone 1,Phone 2,Email,Subscription Date,Website
+151,eD6bdfeF85Afe01,Samuel,Livingston,Walls-Randall,Masseytown,Tuvalu,423.393.5217x1573,1487651470,sycmo5dwli_@hotmail.com,2021-11-14,http://suarez.com/
+418,01AEbCbD0cB7cCd,Summer,Levine,Eaton-Burnett,Port Brentside,Gibraltar,886.407.6741,5733515492,ihvb8z80oon0@protonmail.com,2021-12-08,http://ramirez.com/
+38,fcb32CfCCaE054C,Logan,Bass,Mays-Benjamin,Lake Alisonside,Saint Pierre and Miquelon,070-206-5236,+1-197-026-8212x6146 1195129482,yi-qi9b@gmail.com,2022-03-23,https://larson.com/
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+
+
+
+
+### QUERY
+ how many customers are there?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-04-09 14:56:47 [INFO] Executing Step 3: CodeGenerator
+2024-04-09 14:56:49 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-04-09 14:56:49 [INFO] Prompt used:
+            <dataframe>
+dfs[0]:1000x12
+Index,Customer Id,First Name,Last Name,Company,City,Country,Phone 1,Phone 2,Email,Subscription Date,Website
+151,eD6bdfeF85Afe01,Samuel,Livingston,Walls-Randall,Masseytown,Tuvalu,423.393.5217x1573,1487651470,sycmo5dwli_@hotmail.com,2021-11-14,http://suarez.com/
+418,01AEbCbD0cB7cCd,Summer,Levine,Eaton-Burnett,Port Brentside,Gibraltar,886.407.6741,5733515492,ihvb8z80oon0@protonmail.com,2021-12-08,http://ramirez.com/
+38,fcb32CfCCaE054C,Logan,Bass,Mays-Benjamin,Lake Alisonside,Saint Pierre and Miquelon,070-206-5236,+1-197-026-8212x6146 1195129482,yi-qi9b@gmail.com,2022-03-23,https://larson.com/
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+
+
+
+
+### QUERY
+ how many customers are there?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-04-09 14:56:49 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+total_customers = sum([len(df) for df in dfs])
+
+# Declare result var
+result = { "type": "number", "value": total_customers }
+            ```
+            
+2024-04-09 14:56:49 [INFO] Executing Step 4: CachePopulation
+2024-04-09 14:56:49 [INFO] Executing Step 5: CodeCleaning
+2024-04-09 14:56:49 [INFO] 
+Code running:
+```
+total_customers = sum([len(df) for df in dfs])
+result = {'type': 'number', 'value': total_customers}
+        ```
+2024-04-09 14:56:49 [INFO] Executing Step 6: CodeExecution
+2024-04-09 14:56:49 [INFO] Executing Step 7: ResultValidation
+2024-04-09 14:56:49 [INFO] Answer: {'type': 'number', 'value': 1000}
+2024-04-09 14:56:49 [INFO] Executing Step 8: ResultParsing
+2024-04-09 15:00:27 [INFO] Question: Which are the top 5 countries by sales?
+2024-04-09 15:00:27 [INFO] Running PandasAI with openai LLM...
+2024-04-09 15:00:27 [INFO] Prompt ID: 8ebb3bc2-a9e1-44ad-9e5d-ab3e679d1760
+2024-04-09 15:00:27 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-09 15:00:27 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-09 15:00:27 [INFO] Executing Step 1: CacheLookup
+2024-04-09 15:00:27 [INFO] Using cached response
+2024-04-09 15:00:27 [INFO] Executing Step 2: PromptGeneration
+2024-04-09 15:00:27 [INFO] Executing Step 2: Skipping...
+2024-04-09 15:00:27 [INFO] Executing Step 3: CodeGenerator
+2024-04-09 15:00:27 [INFO] Executing Step 3: Skipping...
+2024-04-09 15:00:27 [INFO] Executing Step 4: CachePopulation
+2024-04-09 15:00:27 [INFO] Executing Step 4: Skipping...
+2024-04-09 15:00:27 [INFO] Executing Step 5: CodeCleaning
+2024-04-09 15:00:27 [INFO] 
+Code running:
+```
+df = dfs[0]
+top_countries = df.sort_values(by='sales', ascending=False).head(5)['country'].tolist()
+result = {'type': 'string', 'value': f"The top 5 countries by sales are: {', '.join(top_countries)}."}
+        ```
+2024-04-09 15:00:28 [INFO] Executing Step 6: CodeExecution
+2024-04-09 15:00:28 [INFO] Executing Step 7: ResultValidation
+2024-04-09 15:00:28 [INFO] Answer: {'type': 'string', 'value': 'The top 5 countries by sales are: China, United States, Japan, Germany, United Kingdom.'}
+2024-04-09 15:00:28 [INFO] Executing Step 8: ResultParsing
+2024-04-09 15:00:31 [INFO] Question: Which are the top 5 countries by sales?
+2024-04-09 15:00:31 [INFO] Running PandasAI with openai LLM...
+2024-04-09 15:00:31 [INFO] Prompt ID: f09f69d8-87d4-4c8e-99da-453678757957
+2024-04-09 15:00:31 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-09 15:00:31 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-09 15:00:31 [INFO] Executing Step 1: CacheLookup
+2024-04-09 15:00:31 [INFO] Using cached response
+2024-04-09 15:00:31 [INFO] Executing Step 2: PromptGeneration
+2024-04-09 15:00:31 [INFO] Executing Step 2: Skipping...
+2024-04-09 15:00:31 [INFO] Executing Step 3: CodeGenerator
+2024-04-09 15:00:31 [INFO] Executing Step 3: Skipping...
+2024-04-09 15:00:31 [INFO] Executing Step 4: CachePopulation
+2024-04-09 15:00:31 [INFO] Executing Step 4: Skipping...
+2024-04-09 15:00:31 [INFO] Executing Step 5: CodeCleaning
+2024-04-09 15:00:31 [INFO] 
+Code running:
+```
+df = dfs[0]
+top_countries = df.sort_values(by='sales', ascending=False).head(5)['country'].tolist()
+result = {'type': 'string', 'value': f"The top 5 countries by sales are: {', '.join(top_countries)}."}
+        ```
+2024-04-09 15:00:31 [INFO] Executing Step 6: CodeExecution
+2024-04-09 15:00:31 [INFO] Executing Step 7: ResultValidation
+2024-04-09 15:00:31 [INFO] Answer: {'type': 'string', 'value': 'The top 5 countries by sales are: China, United States, Japan, Germany, United Kingdom.'}
+2024-04-09 15:00:31 [INFO] Executing Step 8: ResultParsing
+2024-04-09 15:00:32 [INFO] Question: how many customers are there?
+2024-04-09 15:00:32 [INFO] Running PandasAI with openai LLM...
+2024-04-09 15:00:32 [INFO] Prompt ID: f53daaf2-dd3b-4600-874a-b06830a0df21
+2024-04-09 15:00:32 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-09 15:00:32 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-09 15:00:32 [INFO] Executing Step 1: CacheLookup
+2024-04-09 15:00:32 [INFO] Using cached response
+2024-04-09 15:00:32 [INFO] Executing Step 2: PromptGeneration
+2024-04-09 15:00:32 [INFO] Executing Step 2: Skipping...
+2024-04-09 15:00:32 [INFO] Executing Step 3: CodeGenerator
+2024-04-09 15:00:32 [INFO] Executing Step 3: Skipping...
+2024-04-09 15:00:32 [INFO] Executing Step 4: CachePopulation
+2024-04-09 15:00:32 [INFO] Executing Step 4: Skipping...
+2024-04-09 15:00:32 [INFO] Executing Step 5: CodeCleaning
+2024-04-09 15:00:32 [INFO] 
+Code running:
+```
+total_customers = sum([len(df) for df in dfs])
+result = {'type': 'number', 'value': total_customers}
+        ```
+2024-04-09 15:00:32 [INFO] Executing Step 6: CodeExecution
+2024-04-09 15:00:32 [INFO] Executing Step 7: ResultValidation
+2024-04-09 15:00:32 [INFO] Answer: {'type': 'number', 'value': 1000}
+2024-04-09 15:00:32 [INFO] Executing Step 8: ResultParsing
+2024-04-09 15:10:53 [INFO] Question: Which are the top 5 countries by sales?
+2024-04-09 15:10:53 [INFO] Running PandasAI with openai LLM...
+2024-04-09 15:10:53 [INFO] Prompt ID: e06d23dd-8e2b-4405-aade-c10b1cdb7f95
+2024-04-09 15:10:53 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-09 15:10:53 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-09 15:10:53 [INFO] Executing Step 1: CacheLookup
+2024-04-09 15:10:53 [INFO] Using cached response
+2024-04-09 15:10:53 [INFO] Executing Step 2: PromptGeneration
+2024-04-09 15:10:53 [INFO] Executing Step 2: Skipping...
+2024-04-09 15:10:53 [INFO] Executing Step 3: CodeGenerator
+2024-04-09 15:10:53 [INFO] Executing Step 3: Skipping...
+2024-04-09 15:10:53 [INFO] Executing Step 4: CachePopulation
+2024-04-09 15:10:53 [INFO] Executing Step 4: Skipping...
+2024-04-09 15:10:53 [INFO] Executing Step 5: CodeCleaning
+2024-04-09 15:10:53 [INFO] 
+Code running:
+```
+df = dfs[0]
+top_countries = df.sort_values(by='sales', ascending=False).head(5)['country'].tolist()
+result = {'type': 'string', 'value': f"The top 5 countries by sales are: {', '.join(top_countries)}."}
+        ```
+2024-04-09 15:10:53 [INFO] Executing Step 6: CodeExecution
+2024-04-09 15:10:53 [INFO] Executing Step 7: ResultValidation
+2024-04-09 15:10:53 [INFO] Answer: {'type': 'string', 'value': 'The top 5 countries by sales are: China, United States, Japan, Germany, United Kingdom.'}
+2024-04-09 15:10:53 [INFO] Executing Step 8: ResultParsing
+2024-04-09 15:11:30 [INFO] Question: Which are the top 5 countries by sales?
+2024-04-09 15:11:30 [INFO] Running PandasAI with openai LLM...
+2024-04-09 15:11:30 [INFO] Prompt ID: 92f655cc-7db6-4780-bd5b-d14ccbede26f
+2024-04-09 15:11:30 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-09 15:11:30 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-09 15:11:30 [INFO] Executing Step 1: CacheLookup
+2024-04-09 15:11:30 [INFO] Using cached response
+2024-04-09 15:11:30 [INFO] Executing Step 2: PromptGeneration
+2024-04-09 15:11:30 [INFO] Executing Step 2: Skipping...
+2024-04-09 15:11:30 [INFO] Executing Step 3: CodeGenerator
+2024-04-09 15:11:30 [INFO] Executing Step 3: Skipping...
+2024-04-09 15:11:30 [INFO] Executing Step 4: CachePopulation
+2024-04-09 15:11:30 [INFO] Executing Step 4: Skipping...
+2024-04-09 15:11:30 [INFO] Executing Step 5: CodeCleaning
+2024-04-09 15:11:30 [INFO] 
+Code running:
+```
+df = dfs[0]
+top_countries = df.sort_values(by='sales', ascending=False).head(5)['country'].tolist()
+result = {'type': 'string', 'value': f"The top 5 countries by sales are: {', '.join(top_countries)}."}
+        ```
+2024-04-09 15:11:30 [INFO] Executing Step 6: CodeExecution
+2024-04-09 15:11:30 [INFO] Executing Step 7: ResultValidation
+2024-04-09 15:11:30 [INFO] Answer: {'type': 'string', 'value': 'The top 5 countries by sales are: China, United States, Japan, Germany, United Kingdom.'}
+2024-04-09 15:11:30 [INFO] Executing Step 8: ResultParsing
+2024-04-09 15:11:41 [INFO] Question: Which are the top 5 countries by sales?
+2024-04-09 15:11:41 [INFO] Running PandasAI with openai LLM...
+2024-04-09 15:11:41 [INFO] Prompt ID: e3d0f0a9-73b9-4b3c-b219-d38c819eeab3
+2024-04-09 15:11:41 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-09 15:11:41 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-09 15:11:41 [INFO] Executing Step 1: CacheLookup
+2024-04-09 15:11:41 [INFO] Using cached response
+2024-04-09 15:11:41 [INFO] Executing Step 2: PromptGeneration
+2024-04-09 15:11:41 [INFO] Executing Step 2: Skipping...
+2024-04-09 15:11:41 [INFO] Executing Step 3: CodeGenerator
+2024-04-09 15:11:41 [INFO] Executing Step 3: Skipping...
+2024-04-09 15:11:41 [INFO] Executing Step 4: CachePopulation
+2024-04-09 15:11:41 [INFO] Executing Step 4: Skipping...
+2024-04-09 15:11:41 [INFO] Executing Step 5: CodeCleaning
+2024-04-09 15:11:41 [INFO] 
+Code running:
+```
+df = dfs[0]
+top_countries = df.sort_values(by='sales', ascending=False).head(5)['country'].tolist()
+result = {'type': 'string', 'value': f"The top 5 countries by sales are: {', '.join(top_countries)}."}
+        ```
+2024-04-09 15:11:41 [INFO] Executing Step 6: CodeExecution
+2024-04-09 15:11:41 [INFO] Executing Step 7: ResultValidation
+2024-04-09 15:11:41 [INFO] Answer: {'type': 'string', 'value': 'The top 5 countries by sales are: China, United States, Japan, Germany, United Kingdom.'}
+2024-04-09 15:11:41 [INFO] Executing Step 8: ResultParsing
+2024-04-09 15:12:26 [INFO] Question: Which are the top 5 countries by sales?
+2024-04-09 15:12:26 [INFO] Running PandasAI with openai LLM...
+2024-04-09 15:12:26 [INFO] Prompt ID: 7ec7477e-3add-4bdd-af07-721909fdaec2
+2024-04-09 15:12:26 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-09 15:12:26 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-09 15:12:26 [INFO] Executing Step 1: CacheLookup
+2024-04-09 15:12:26 [INFO] Using cached response
+2024-04-09 15:12:26 [INFO] Executing Step 2: PromptGeneration
+2024-04-09 15:12:26 [INFO] Executing Step 2: Skipping...
+2024-04-09 15:12:26 [INFO] Executing Step 3: CodeGenerator
+2024-04-09 15:12:26 [INFO] Executing Step 3: Skipping...
+2024-04-09 15:12:26 [INFO] Executing Step 4: CachePopulation
+2024-04-09 15:12:26 [INFO] Executing Step 4: Skipping...
+2024-04-09 15:12:26 [INFO] Executing Step 5: CodeCleaning
+2024-04-09 15:12:26 [INFO] 
+Code running:
+```
+df = dfs[0]
+top_countries = df.sort_values(by='sales', ascending=False).head(5)['country'].tolist()
+result = {'type': 'string', 'value': f"The top 5 countries by sales are: {', '.join(top_countries)}."}
+        ```
+2024-04-09 15:12:26 [INFO] Executing Step 6: CodeExecution
+2024-04-09 15:12:26 [INFO] Executing Step 7: ResultValidation
+2024-04-09 15:12:26 [INFO] Answer: {'type': 'string', 'value': 'The top 5 countries by sales are: China, United States, Japan, Germany, United Kingdom.'}
+2024-04-09 15:12:26 [INFO] Executing Step 8: ResultParsing
+2024-04-09 15:12:31 [INFO] Question: Which are the top 5 countries by sales?
+2024-04-09 15:12:31 [INFO] Running PandasAI with openai LLM...
+2024-04-09 15:12:31 [INFO] Prompt ID: 21bcf70d-21fe-47b8-92ba-fb8f063235e8
+2024-04-09 15:12:31 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-09 15:12:31 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-09 15:12:31 [INFO] Executing Step 1: CacheLookup
+2024-04-09 15:12:31 [INFO] Using cached response
+2024-04-09 15:12:31 [INFO] Executing Step 2: PromptGeneration
+2024-04-09 15:12:31 [INFO] Executing Step 2: Skipping...
+2024-04-09 15:12:31 [INFO] Executing Step 3: CodeGenerator
+2024-04-09 15:12:31 [INFO] Executing Step 3: Skipping...
+2024-04-09 15:12:31 [INFO] Executing Step 4: CachePopulation
+2024-04-09 15:12:31 [INFO] Executing Step 4: Skipping...
+2024-04-09 15:12:31 [INFO] Executing Step 5: CodeCleaning
+2024-04-09 15:12:31 [INFO] 
+Code running:
+```
+df = dfs[0]
+top_countries = df.sort_values(by='sales', ascending=False).head(5)['country'].tolist()
+result = {'type': 'string', 'value': f"The top 5 countries by sales are: {', '.join(top_countries)}."}
+        ```
+2024-04-09 15:12:31 [INFO] Executing Step 6: CodeExecution
+2024-04-09 15:12:31 [INFO] Executing Step 7: ResultValidation
+2024-04-09 15:12:31 [INFO] Answer: {'type': 'string', 'value': 'The top 5 countries by sales are: China, United States, Japan, Germany, United Kingdom.'}
+2024-04-09 15:12:31 [INFO] Executing Step 8: ResultParsing
+2024-04-09 15:12:32 [INFO] Question: plot the principal amount by education
+2024-04-09 15:12:32 [INFO] Running PandasAI with openai LLM...
+2024-04-09 15:12:32 [INFO] Prompt ID: 3102406a-4e70-43a2-b1e4-bf97894cd174
+2024-04-09 15:12:32 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-09 15:12:32 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-09 15:12:32 [INFO] Executing Step 1: CacheLookup
+2024-04-09 15:12:32 [INFO] Executing Step 2: PromptGeneration
+2024-04-09 15:12:33 [INFO] Querying without using training data.
+2024-04-09 15:12:35 [INFO] Querying without using training docs.
+2024-04-09 15:12:35 [INFO] Using prompt: <dataframe>
+dfs[0]:500x11
+Loan_ID,loan_status,Principal,terms,effective_date,due_date,paid_off_time,past_due_days,age,education,Gender
+xqd20160264,PAIDOFF,300,7,9/8/2016,9/18/2016,9/24/2016 14:55,,31,college,female
+xqd20160033,COLLECTION_PAIDOFF,1000,30,9/9/2016,10/25/2016,,51.0,42,Master or Above,female
+xqd20169083,COLLECTION,800,15,9/13/2016,10/11/2016,9/21/2016 8:11,44.0,30,High School or Below,male
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+
+
+
+
+### QUERY
+ plot the principal amount by education
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-04-09 15:12:35 [INFO] Executing Step 3: CodeGenerator
+2024-04-09 15:12:48 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-04-09 15:12:48 [INFO] Prompt used:
+            <dataframe>
+dfs[0]:500x11
+Loan_ID,loan_status,Principal,terms,effective_date,due_date,paid_off_time,past_due_days,age,education,Gender
+xqd20160264,PAIDOFF,300,7,9/8/2016,9/18/2016,9/24/2016 14:55,,31,college,female
+xqd20160033,COLLECTION_PAIDOFF,1000,30,9/9/2016,10/25/2016,,51.0,42,Master or Above,female
+xqd20169083,COLLECTION,800,15,9/13/2016,10/11/2016,9/21/2016 8:11,44.0,30,High School or Below,male
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+
+
+
+
+### QUERY
+ plot the principal amount by education
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-04-09 15:12:48 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Create a DataFrame from the provided data
+data = {'Loan_ID': ['xqd20160264', 'xqd20160033', 'xqd20169083'],
+        'loan_status': ['PAIDOFF', 'COLLECTION_PAIDOFF', 'COLLECTION'],
+        'Principal': [300, 1000, 800],
+        'terms': [7, 30, 15],
+        'effective_date': ['9/8/2016', '9/9/2016', '9/13/2016'],
+        'due_date': ['9/18/2016', '10/25/2016', '10/11/2016'],
+        'paid_off_time': ['9/24/2016 14:55', '', '9/21/2016 8:11'],
+        'past_due_days': [None, 51.0, 44.0],
+        'age': [31, 42, 30],
+        'education': ['college', 'Master or Above', 'High School or Below'],
+        'Gender': ['female', 'female', 'male']}
+
+df = pd.DataFrame(data)
+
+# Plot principal amount by education
+plt.figure(figsize=(10, 6))
+df.groupby('education')['Principal'].sum().plot(kind='bar', color='skyblue')
+plt.title('Principal Amount by Education')
+plt.xlabel('Education Level')
+plt.ylabel('Total Principal Amount')
+plt.xticks(rotation=45)
+plt.tight_layout()
+
+# Save the plot as a PNG file
+plt.savefig('principal_by_education.png')
+
+# Declare result variable as a dictionary
+result = {"type": "plot", "value": "principal_by_education.png"}
+            ```
+            
+2024-04-09 15:12:48 [INFO] Executing Step 4: CachePopulation
+2024-04-09 15:12:48 [INFO] Executing Step 5: CodeCleaning
+2024-04-09 15:12:48 [INFO] Saving charts to C:\Users\AKlykov\PandasAI\exports\charts\temp_chart.png
+2024-04-09 15:12:48 [INFO] 
+Code running:
+```
+data = {'Loan_ID': ['xqd20160264', 'xqd20160033', 'xqd20169083'], 'loan_status': ['PAIDOFF', 'COLLECTION_PAIDOFF', 'COLLECTION'], 'Principal': [300, 1000, 800], 'terms': [7, 30, 15], 'effective_date': ['9/8/2016', '9/9/2016', '9/13/2016'], 'due_date': ['9/18/2016', '10/25/2016', '10/11/2016'], 'paid_off_time': ['9/24/2016 14:55', '', '9/21/2016 8:11'], 'past_due_days': [None, 51.0, 44.0], 'age': [31, 42, 30], 'education': ['college', 'Master or Above', 'High School or Below'], 'Gender': ['female', 'female', 'male']}
+df = dfs[0]
+plt.figure(figsize=(10, 6))
+df.groupby('education')['Principal'].sum().plot(kind='bar', color='skyblue')
+plt.title('Principal Amount by Education')
+plt.xlabel('Education Level')
+plt.ylabel('Total Principal Amount')
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.savefig('C:/Users/AKlykov/PandasAI/exports/charts/temp_chart.png')
+result = {'type': 'plot', 'value': 'C:/Users/AKlykov/PandasAI/exports/charts/temp_chart.png'}
+        ```
+2024-04-09 15:12:48 [INFO] Executing Step 6: CodeExecution
+2024-04-09 15:12:48 [INFO] Executing Step 7: ResultValidation
+2024-04-09 15:12:48 [INFO] Answer: {'type': 'plot', 'value': 'C:/Users/AKlykov/PandasAI/exports/charts/temp_chart.png'}
+2024-04-09 15:12:48 [INFO] Executing Step 8: ResultParsing
+2024-04-09 15:22:06 [INFO] Question: plot the age that had their loan past due
+2024-04-09 15:22:06 [INFO] Running PandasAI with openai LLM...
+2024-04-09 15:22:06 [INFO] Prompt ID: 1ba5f198-bfaf-4a28-afe2-e97aeb439496
+2024-04-09 15:22:06 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-09 15:22:06 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-09 15:22:06 [INFO] Executing Step 1: CacheLookup
+2024-04-09 15:22:06 [INFO] Executing Step 2: PromptGeneration
+2024-04-09 15:22:08 [INFO] Querying without using training data.
+2024-04-09 15:22:09 [INFO] Querying without using training docs.
+2024-04-09 15:22:09 [INFO] Using prompt: <dataframe>
+dfs[0]:500x11
+Loan_ID,loan_status,Principal,terms,effective_date,due_date,paid_off_time,past_due_days,age,education,Gender
+xqd20160366,COLLECTION,1000,15,9/10/2016,10/26/2016,,,38,High School or Below,male
+xqd20160274,COLLECTION_PAIDOFF,800,30,9/8/2016,9/23/2016,10/12/2016 14:32,9.0,44,college,female
+xqd20160469,PAIDOFF,900,7,9/11/2016,9/27/2016,10/10/2016 15:18,29.0,50,Master or Above,male
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+
+
+
+
+### QUERY
+ plot the age that had their loan past due
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-04-09 15:22:09 [INFO] Executing Step 3: CodeGenerator
+2024-04-09 15:22:12 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-04-09 15:22:12 [INFO] Prompt used:
+            <dataframe>
+dfs[0]:500x11
+Loan_ID,loan_status,Principal,terms,effective_date,due_date,paid_off_time,past_due_days,age,education,Gender
+xqd20160366,COLLECTION,1000,15,9/10/2016,10/26/2016,,,38,High School or Below,male
+xqd20160274,COLLECTION_PAIDOFF,800,30,9/8/2016,9/23/2016,10/12/2016 14:32,9.0,44,college,female
+xqd20160469,PAIDOFF,900,7,9/11/2016,9/27/2016,10/10/2016 15:18,29.0,50,Master or Above,male
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+
+
+
+
+### QUERY
+ plot the age that had their loan past due
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-04-09 15:22:12 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Extracting the relevant data for past due loans
+past_due_df = dfs[0][dfs[0]['loan_status'] == 'COLLECTION']
+
+# Plotting the age of individuals with past due loans
+plt.figure(figsize=(10, 6))
+plt.hist(past_due_df['age'], bins=10, color='skyblue', edgecolor='black')
+plt.title('Age Distribution of Individuals with Past Due Loans')
+plt.xlabel('Age')
+plt.ylabel('Frequency')
+plt.grid(axis='y', alpha=0.75)
+plt.savefig('age_past_due_loans.png')
+
+# Declare result variable as a plot
+result = {"type": "plot", "value": "age_past_due_loans.png"}
+            ```
+            
+2024-04-09 15:22:12 [INFO] Executing Step 4: CachePopulation
+2024-04-09 15:22:12 [INFO] Executing Step 5: CodeCleaning
+2024-04-09 15:22:12 [INFO] Saving charts to C:\Users\AKlykov\PandasAI\exports\charts\temp_chart.png
+2024-04-09 15:22:12 [INFO] 
+Code running:
+```
+past_due_df = dfs[0][dfs[0]['loan_status'] == 'COLLECTION']
+plt.figure(figsize=(10, 6))
+plt.hist(past_due_df['age'], bins=10, color='skyblue', edgecolor='black')
+plt.title('Age Distribution of Individuals with Past Due Loans')
+plt.xlabel('Age')
+plt.ylabel('Frequency')
+plt.grid(axis='y', alpha=0.75)
+plt.savefig('C:/Users/AKlykov/PandasAI/exports/charts/temp_chart.png')
+result = {'type': 'plot', 'value': 'C:/Users/AKlykov/PandasAI/exports/charts/temp_chart.png'}
+        ```
+2024-04-09 15:22:12 [INFO] Executing Step 6: CodeExecution
+2024-04-09 15:22:12 [INFO] Executing Step 7: ResultValidation
+2024-04-09 15:22:12 [INFO] Answer: {'type': 'plot', 'value': 'C:/Users/AKlykov/PandasAI/exports/charts/temp_chart.png'}
+2024-04-09 15:22:12 [INFO] Executing Step 8: ResultParsing
+2024-04-09 15:24:24 [INFO] Question: create a line graph of gender by effective data
+2024-04-09 15:24:24 [INFO] Running PandasAI with openai LLM...
+2024-04-09 15:24:24 [INFO] Prompt ID: 1dddf302-6934-48ee-a708-c9e49b035055
+2024-04-09 15:24:24 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-09 15:24:24 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-09 15:24:24 [INFO] Executing Step 1: CacheLookup
+2024-04-09 15:24:24 [INFO] Executing Step 2: PromptGeneration
+2024-04-09 15:24:26 [INFO] Querying without using training data.
+2024-04-09 15:24:27 [INFO] Querying without using training docs.
+2024-04-09 15:24:27 [INFO] Using prompt: <dataframe>
+dfs[0]:500x11
+Loan_ID,loan_status,Principal,terms,effective_date,due_date,paid_off_time,past_due_days,age,education,Gender
+xqd20160479,PAIDOFF,800,15,9/10/2016,11/12/2016,9/22/2016 21:45,19.0,19,High School or Below,female
+xqd20160441,COLLECTION,1000,7,9/13/2016,9/25/2016,,58.0,22,Master or Above,female
+xqd22169034,COLLECTION_PAIDOFF,700,30,9/14/2016,9/26/2016,10/8/2016 17:12,,31,college,male
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+
+
+
+
+### QUERY
+ create a line graph of gender by effective data
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-04-09 15:24:27 [INFO] Executing Step 3: CodeGenerator
+2024-04-09 15:24:33 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-04-09 15:24:33 [INFO] Prompt used:
+            <dataframe>
+dfs[0]:500x11
+Loan_ID,loan_status,Principal,terms,effective_date,due_date,paid_off_time,past_due_days,age,education,Gender
+xqd20160479,PAIDOFF,800,15,9/10/2016,11/12/2016,9/22/2016 21:45,19.0,19,High School or Below,female
+xqd20160441,COLLECTION,1000,7,9/13/2016,9/25/2016,,58.0,22,Master or Above,female
+xqd22169034,COLLECTION_PAIDOFF,700,30,9/14/2016,9/26/2016,10/8/2016 17:12,,31,college,male
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+
+
+
+
+### QUERY
+ create a line graph of gender by effective data
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-04-09 15:24:33 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Dataframe
+data = {
+    'Loan_ID': ['xqd20160479', 'xqd20160441', 'xqd22169034'],
+    'loan_status': ['PAIDOFF', 'COLLECTION', 'COLLECTION_PAIDOFF'],
+    'Principal': [800, 1000, 700],
+    'terms': [15, 7, 30],
+    'effective_date': ['9/10/2016', '9/13/2016', '9/14/2016'],
+    'due_date': ['11/12/2016', '9/25/2016', '9/26/2016'],
+    'paid_off_time': ['9/22/2016 21:45', '', '10/8/2016 17:12'],
+    'past_due_days': [19.0, 58.0, None],
+    'age': [19, 22, 31],
+    'education': ['High School or Below', 'Master or Above', 'college'],
+    'Gender': ['female', 'female', 'male']
+}
+
+dfs = [pd.DataFrame(data)]
+
+# Line graph of gender by effective date
+gender_effective = dfs[0][['Gender', 'effective_date']]
+gender_effective['effective_date'] = pd.to_datetime(gender_effective['effective_date'])
+
+gender_counts = gender_effective.groupby(['Gender', 'effective_date']).size().unstack().fillna(0)
+gender_counts.plot(kind='line', marker='o')
+plt.title('Gender Distribution by Effective Date')
+plt.xlabel('Effective Date')
+plt.ylabel('Count')
+plt.legend(title='Gender')
+plt.grid(True)
+
+# Save the plot as a PNG file
+plt.savefig('gender_effective_line_graph.png')
+
+# Declare result variable
+result = {"type": "plot", "value": "gender_effective_line_graph.png"}
+            ```
+            
+2024-04-09 15:24:33 [INFO] Executing Step 4: CachePopulation
+2024-04-09 15:24:33 [INFO] Executing Step 5: CodeCleaning
+2024-04-09 15:24:33 [INFO] Saving charts to C:\Users\AKlykov\PandasAI\exports\charts\temp_chart.png
+2024-04-09 15:24:33 [INFO] 
+Code running:
+```
+data = {'Loan_ID': ['xqd20160479', 'xqd20160441', 'xqd22169034'], 'loan_status': ['PAIDOFF', 'COLLECTION', 'COLLECTION_PAIDOFF'], 'Principal': [800, 1000, 700], 'terms': [15, 7, 30], 'effective_date': ['9/10/2016', '9/13/2016', '9/14/2016'], 'due_date': ['11/12/2016', '9/25/2016', '9/26/2016'], 'paid_off_time': ['9/22/2016 21:45', '', '10/8/2016 17:12'], 'past_due_days': [19.0, 58.0, None], 'age': [19, 22, 31], 'education': ['High School or Below', 'Master or Above', 'college'], 'Gender': ['female', 'female', 'male']}
+gender_effective = dfs[0][['Gender', 'effective_date']]
+gender_effective['effective_date'] = pd.to_datetime(gender_effective['effective_date'])
+gender_counts = gender_effective.groupby(['Gender', 'effective_date']).size().unstack().fillna(0)
+gender_counts.plot(kind='line', marker='o')
+plt.title('Gender Distribution by Effective Date')
+plt.xlabel('Effective Date')
+plt.ylabel('Count')
+plt.legend(title='Gender')
+plt.grid(True)
+plt.savefig('C:/Users/AKlykov/PandasAI/exports/charts/temp_chart.png')
+result = {'type': 'plot', 'value': 'C:/Users/AKlykov/PandasAI/exports/charts/temp_chart.png'}
+        ```
+2024-04-09 15:24:33 [INFO] Executing Step 6: CodeExecution
+2024-04-09 15:24:33 [INFO] Executing Step 7: ResultValidation
+2024-04-09 15:24:33 [INFO] Answer: {'type': 'plot', 'value': 'C:/Users/AKlykov/PandasAI/exports/charts/temp_chart.png'}
+2024-04-09 15:24:33 [INFO] Executing Step 8: ResultParsing
+2024-04-09 15:25:31 [INFO] Question: create a prediction model that will predict which education will most likely be past due
+2024-04-09 15:25:31 [INFO] Running PandasAI with openai LLM...
+2024-04-09 15:25:31 [INFO] Prompt ID: 69a4a148-a2a1-4c0f-a17b-c4ed2e15945b
+2024-04-09 15:25:31 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-09 15:25:31 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-09 15:25:31 [INFO] Executing Step 1: CacheLookup
+2024-04-09 15:25:31 [INFO] Executing Step 2: PromptGeneration
+2024-04-09 15:25:33 [INFO] Querying without using training data.
+2024-04-09 15:25:34 [INFO] Querying without using training docs.
+2024-04-09 15:25:34 [INFO] Using prompt: <dataframe>
+dfs[0]:500x11
+Loan_ID,loan_status,Principal,terms,effective_date,due_date,paid_off_time,past_due_days,age,education,Gender
+xqd20160261,COLLECTION_PAIDOFF,800,15,9/11/2016,10/9/2016,,,47,High School or Below,female
+xqd20160433,PAIDOFF,700,7,9/8/2016,10/10/2016,9/26/2016 19:35,51.0,43,Master or Above,male
+xqd20160399,COLLECTION,1000,30,9/14/2016,10/11/2016,10/11/2016 13:01,61.0,42,Bechalor,male
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+
+
+
+
+### QUERY
+ create a prediction model that will predict which education will most likely be past due
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-04-09 15:25:34 [INFO] Executing Step 3: CodeGenerator
+2024-04-09 15:25:40 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-04-09 15:25:40 [INFO] Prompt used:
+            <dataframe>
+dfs[0]:500x11
+Loan_ID,loan_status,Principal,terms,effective_date,due_date,paid_off_time,past_due_days,age,education,Gender
+xqd20160261,COLLECTION_PAIDOFF,800,15,9/11/2016,10/9/2016,,,47,High School or Below,female
+xqd20160433,PAIDOFF,700,7,9/8/2016,10/10/2016,9/26/2016 19:35,51.0,43,Master or Above,male
+xqd20160399,COLLECTION,1000,30,9/14/2016,10/11/2016,10/11/2016 13:01,61.0,42,Bechalor,male
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+
+
+
+
+### QUERY
+ create a prediction model that will predict which education will most likely be past due
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-04-09 15:25:40 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.preprocessing import LabelEncoder
+from sklearn.metrics import accuracy_score
+
+# Concatenate all dataframes in dfs list
+df = pd.concat(dfs)
+
+# Drop unnecessary columns
+df.drop(['Loan_ID', 'effective_date', 'due_date', 'paid_off_time'], axis=1, inplace=True)
+
+# Fill missing values in past_due_days column with 0
+df['past_due_days'].fillna(0, inplace=True)
+
+# Encode categorical variables
+label_encoders = {}
+for col in ['loan_status', 'education', 'Gender']:
+    le = LabelEncoder()
+    df[col] = le.fit_transform(df[col])
+    label_encoders[col] = le
+
+# Split data into features and target variable
+X = df.drop('past_due_days', axis=1)
+y = df['past_due_days']
+
+# Split data into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Train a Random Forest Classifier model
+rf_model = RandomForestClassifier()
+rf_model.fit(X_train, y_train)
+
+# Make predictions on the test set
+y_pred = rf_model.predict(X_test)
+
+# Calculate accuracy of the model
+accuracy = accuracy_score(y_test, y_pred)
+
+# Determine which education is most likely to be past due
+most_likely_education = label_encoders['education'].inverse_transform([rf_model.feature_importances_.argmax()])[0]
+
+result = {"type": "string", "value": f"The education most likely to be past due is {most_likely_education}. Model accuracy: {accuracy}"}
+            ```
+            
+2024-04-09 15:25:40 [INFO] Executing Step 4: CachePopulation
+2024-04-09 15:25:40 [INFO] Executing Step 5: CodeCleaning
+2024-04-09 15:25:40 [INFO] 
+Code running:
+```
+df = pd.concat(dfs)
+df.drop(['Loan_ID', 'effective_date', 'due_date', 'paid_off_time'], axis=1, inplace=True)
+df['past_due_days'].fillna(0, inplace=True)
+label_encoders = {}
+for col in ['loan_status', 'education', 'Gender']:
+    le = LabelEncoder()
+    df[col] = le.fit_transform(df[col])
+    label_encoders[col] = le
+X = df.drop('past_due_days', axis=1)
+y = df['past_due_days']
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+rf_model = RandomForestClassifier()
+rf_model.fit(X_train, y_train)
+y_pred = rf_model.predict(X_test)
+accuracy = accuracy_score(y_test, y_pred)
+most_likely_education = label_encoders['education'].inverse_transform([rf_model.feature_importances_.argmax()])[0]
+result = {'type': 'string', 'value': f'The education most likely to be past due is {most_likely_education}. Model accuracy: {accuracy}'}
+        ```
+2024-04-09 15:25:40 [INFO] Executing Step 6: CodeExecution
+2024-04-09 15:25:40 [ERROR] Failed with error: Traceback (most recent call last):
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\helpers\optional.py", line 122, in import_dependency
+    module = importlib.import_module(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AKlykov\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1126, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'sklearn'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 85, in execute
+    result = self.execute_code(input, code_context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 157, in execute_code
+    environment: dict = get_environment(self._additional_dependencies)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\helpers\optional.py", line 59, in get_environment
+    **{
+      ^
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\helpers\optional.py", line 62, in <dictcomp>
+    if hasattr(import_dependency(lib["module"]), lib["name"])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\helpers\optional.py", line 125, in import_dependency
+    raise ImportError(msg) from exc
+ImportError: Missing optional dependency 'sklearn.model_selection'.  Use pip or conda to install sklearn.model_selection.
+
+2024-04-09 15:25:40 [WARNING] Failed to execute code retrying with a correction framework [retry number: 1]
+2024-04-09 15:25:40 [INFO] Executing Pipeline: ErrorCorrectionPipeline
+2024-04-09 15:25:40 [INFO] Executing Step 0: ErrorPromptGeneration
+2024-04-09 15:25:40 [INFO] Using prompt: <dataframe>
+dfs[0]:500x11
+Loan_ID,loan_status,Principal,terms,effective_date,due_date,paid_off_time,past_due_days,age,education,Gender
+xqd20160261,COLLECTION_PAIDOFF,800,15,9/11/2016,10/9/2016,,,47,High School or Below,female
+xqd20160433,PAIDOFF,700,7,9/8/2016,10/10/2016,9/26/2016 19:35,51.0,43,Master or Above,male
+xqd20160399,COLLECTION,1000,30,9/14/2016,10/11/2016,10/11/2016 13:01,61.0,42,Bechalor,male
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ create a prediction model that will predict which education will most likely be past due
+
+You generated this python code:
+df = pd.concat(dfs)
+df.drop(['Loan_ID', 'effective_date', 'due_date', 'paid_off_time'], axis=1, inplace=True)
+df['past_due_days'].fillna(0, inplace=True)
+label_encoders = {}
+for col in ['loan_status', 'education', 'Gender']:
+    le = LabelEncoder()
+    df[col] = le.fit_transform(df[col])
+    label_encoders[col] = le
+X = df.drop('past_due_days', axis=1)
+y = df['past_due_days']
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+rf_model = RandomForestClassifier()
+rf_model.fit(X_train, y_train)
+y_pred = rf_model.predict(X_test)
+accuracy = accuracy_score(y_test, y_pred)
+most_likely_education = label_encoders['education'].inverse_transform([rf_model.feature_importances_.argmax()])[0]
+result = {'type': 'string', 'value': f'The education most likely to be past due is {most_likely_education}. Model accuracy: {accuracy}'}
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\helpers\optional.py", line 122, in import_dependency
+    module = importlib.import_module(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AKlykov\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1126, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'sklearn'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 85, in execute
+    result = self.execute_code(input, code_context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 157, in execute_code
+    environment: dict = get_environment(self._additional_dependencies)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\helpers\optional.py", line 59, in get_environment
+    **{
+      ^
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\helpers\optional.py", line 62, in <dictcomp>
+    if hasattr(import_dependency(lib["module"]), lib["name"])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\helpers\optional.py", line 125, in import_dependency
+    raise ImportError(msg) from exc
+ImportError: Missing optional dependency 'sklearn.model_selection'.  Use pip or conda to install sklearn.model_selection.
+
+
+Fix the python code above and return the new python code:
+2024-04-09 15:25:40 [INFO] Executing Step 1: CodeGenerator
+2024-04-09 15:25:44 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-04-09 15:25:44 [INFO] Prompt used:
+            <dataframe>
+dfs[0]:500x11
+Loan_ID,loan_status,Principal,terms,effective_date,due_date,paid_off_time,past_due_days,age,education,Gender
+xqd20160261,COLLECTION_PAIDOFF,800,15,9/11/2016,10/9/2016,,,47,High School or Below,female
+xqd20160433,PAIDOFF,700,7,9/8/2016,10/10/2016,9/26/2016 19:35,51.0,43,Master or Above,male
+xqd20160399,COLLECTION,1000,30,9/14/2016,10/11/2016,10/11/2016 13:01,61.0,42,Bechalor,male
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ create a prediction model that will predict which education will most likely be past due
+
+You generated this python code:
+df = pd.concat(dfs)
+df.drop(['Loan_ID', 'effective_date', 'due_date', 'paid_off_time'], axis=1, inplace=True)
+df['past_due_days'].fillna(0, inplace=True)
+label_encoders = {}
+for col in ['loan_status', 'education', 'Gender']:
+    le = LabelEncoder()
+    df[col] = le.fit_transform(df[col])
+    label_encoders[col] = le
+X = df.drop('past_due_days', axis=1)
+y = df['past_due_days']
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+rf_model = RandomForestClassifier()
+rf_model.fit(X_train, y_train)
+y_pred = rf_model.predict(X_test)
+accuracy = accuracy_score(y_test, y_pred)
+most_likely_education = label_encoders['education'].inverse_transform([rf_model.feature_importances_.argmax()])[0]
+result = {'type': 'string', 'value': f'The education most likely to be past due is {most_likely_education}. Model accuracy: {accuracy}'}
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\helpers\optional.py", line 122, in import_dependency
+    module = importlib.import_module(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AKlykov\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1126, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'sklearn'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 85, in execute
+    result = self.execute_code(input, code_context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 157, in execute_code
+    environment: dict = get_environment(self._additional_dependencies)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\helpers\optional.py", line 59, in get_environment
+    **{
+      ^
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\helpers\optional.py", line 62, in <dictcomp>
+    if hasattr(import_dependency(lib["module"]), lib["name"])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\helpers\optional.py", line 125, in import_dependency
+    raise ImportError(msg) from exc
+ImportError: Missing optional dependency 'sklearn.model_selection'.  Use pip or conda to install sklearn.model_selection.
+
+
+Fix the python code above and return the new python code:
+            
+2024-04-09 15:25:44 [INFO] Code generated:
+            ```
+            import pandas as pd
+from sklearn.preprocessing import LabelEncoder
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+
+# Assuming dfs is a list of dataframes
+df = pd.concat(dfs)
+df.drop(['Loan_ID', 'effective_date', 'due_date', 'paid_off_time'], axis=1, inplace=True)
+df['past_due_days'].fillna(0, inplace=True)
+
+label_encoders = {}
+for col in ['loan_status', 'education', 'Gender']:
+    le = LabelEncoder()
+    df[col] = le.fit_transform(df[col])
+    label_encoders[col] = le
+
+X = df.drop('past_due_days', axis=1)
+y = df['past_due_days']
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+rf_model = RandomForestClassifier()
+rf_model.fit(X_train, y_train)
+
+y_pred = rf_model.predict(X_test)
+accuracy = accuracy_score(y_test, y_pred)
+
+most_likely_education = label_encoders['education'].inverse_transform([rf_model.feature_importances_.argmax()])[0]
+
+result = {'type': 'string', 'value': f'The education most likely to be past due is {most_likely_education}. Model accuracy: {accuracy}'}
+            ```
+            
+2024-04-09 15:25:44 [INFO] Executing Step 2: CodeCleaning
+2024-04-09 15:25:44 [INFO] 
+Code running:
+```
+df = pd.concat(dfs)
+df.drop(['Loan_ID', 'effective_date', 'due_date', 'paid_off_time'], axis=1, inplace=True)
+df['past_due_days'].fillna(0, inplace=True)
+label_encoders = {}
+for col in ['loan_status', 'education', 'Gender']:
+    le = LabelEncoder()
+    df[col] = le.fit_transform(df[col])
+    label_encoders[col] = le
+X = df.drop('past_due_days', axis=1)
+y = df['past_due_days']
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+rf_model = RandomForestClassifier()
+rf_model.fit(X_train, y_train)
+y_pred = rf_model.predict(X_test)
+accuracy = accuracy_score(y_test, y_pred)
+most_likely_education = label_encoders['education'].inverse_transform([rf_model.feature_importances_.argmax()])[0]
+result = {'type': 'string', 'value': f'The education most likely to be past due is {most_likely_education}. Model accuracy: {accuracy}'}
+        ```
+2024-04-09 15:25:44 [ERROR] Failed with error: Traceback (most recent call last):
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\helpers\optional.py", line 122, in import_dependency
+    module = importlib.import_module(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AKlykov\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1126, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'sklearn'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 85, in execute
+    result = self.execute_code(input, code_context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 157, in execute_code
+    environment: dict = get_environment(self._additional_dependencies)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\helpers\optional.py", line 59, in get_environment
+    **{
+      ^
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\helpers\optional.py", line 62, in <dictcomp>
+    if hasattr(import_dependency(lib["module"]), lib["name"])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\helpers\optional.py", line 125, in import_dependency
+    raise ImportError(msg) from exc
+ImportError: Missing optional dependency 'sklearn.model_selection'.  Use pip or conda to install sklearn.model_selection.
+
+2024-04-09 15:25:44 [WARNING] Failed to execute code retrying with a correction framework [retry number: 2]
+2024-04-09 15:25:44 [INFO] Executing Pipeline: ErrorCorrectionPipeline
+2024-04-09 15:25:44 [INFO] Executing Step 0: ErrorPromptGeneration
+2024-04-09 15:25:44 [INFO] Using prompt: <dataframe>
+dfs[0]:500x11
+Loan_ID,loan_status,Principal,terms,effective_date,due_date,paid_off_time,past_due_days,age,education,Gender
+xqd20160261,COLLECTION_PAIDOFF,800,15,9/11/2016,10/9/2016,,,47,High School or Below,female
+xqd20160433,PAIDOFF,700,7,9/8/2016,10/10/2016,9/26/2016 19:35,51.0,43,Master or Above,male
+xqd20160399,COLLECTION,1000,30,9/14/2016,10/11/2016,10/11/2016 13:01,61.0,42,Bechalor,male
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ create a prediction model that will predict which education will most likely be past due
+
+You generated this python code:
+df = pd.concat(dfs)
+df.drop(['Loan_ID', 'effective_date', 'due_date', 'paid_off_time'], axis=1, inplace=True)
+df['past_due_days'].fillna(0, inplace=True)
+label_encoders = {}
+for col in ['loan_status', 'education', 'Gender']:
+    le = LabelEncoder()
+    df[col] = le.fit_transform(df[col])
+    label_encoders[col] = le
+X = df.drop('past_due_days', axis=1)
+y = df['past_due_days']
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+rf_model = RandomForestClassifier()
+rf_model.fit(X_train, y_train)
+y_pred = rf_model.predict(X_test)
+accuracy = accuracy_score(y_test, y_pred)
+most_likely_education = label_encoders['education'].inverse_transform([rf_model.feature_importances_.argmax()])[0]
+result = {'type': 'string', 'value': f'The education most likely to be past due is {most_likely_education}. Model accuracy: {accuracy}'}
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\helpers\optional.py", line 122, in import_dependency
+    module = importlib.import_module(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AKlykov\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1126, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'sklearn'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 85, in execute
+    result = self.execute_code(input, code_context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 157, in execute_code
+    environment: dict = get_environment(self._additional_dependencies)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\helpers\optional.py", line 59, in get_environment
+    **{
+      ^
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\helpers\optional.py", line 62, in <dictcomp>
+    if hasattr(import_dependency(lib["module"]), lib["name"])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\helpers\optional.py", line 125, in import_dependency
+    raise ImportError(msg) from exc
+ImportError: Missing optional dependency 'sklearn.model_selection'.  Use pip or conda to install sklearn.model_selection.
+
+
+Fix the python code above and return the new python code:
+2024-04-09 15:25:44 [INFO] Executing Step 1: CodeGenerator
+2024-04-09 15:25:48 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-04-09 15:25:48 [INFO] Prompt used:
+            <dataframe>
+dfs[0]:500x11
+Loan_ID,loan_status,Principal,terms,effective_date,due_date,paid_off_time,past_due_days,age,education,Gender
+xqd20160261,COLLECTION_PAIDOFF,800,15,9/11/2016,10/9/2016,,,47,High School or Below,female
+xqd20160433,PAIDOFF,700,7,9/8/2016,10/10/2016,9/26/2016 19:35,51.0,43,Master or Above,male
+xqd20160399,COLLECTION,1000,30,9/14/2016,10/11/2016,10/11/2016 13:01,61.0,42,Bechalor,male
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ create a prediction model that will predict which education will most likely be past due
+
+You generated this python code:
+df = pd.concat(dfs)
+df.drop(['Loan_ID', 'effective_date', 'due_date', 'paid_off_time'], axis=1, inplace=True)
+df['past_due_days'].fillna(0, inplace=True)
+label_encoders = {}
+for col in ['loan_status', 'education', 'Gender']:
+    le = LabelEncoder()
+    df[col] = le.fit_transform(df[col])
+    label_encoders[col] = le
+X = df.drop('past_due_days', axis=1)
+y = df['past_due_days']
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+rf_model = RandomForestClassifier()
+rf_model.fit(X_train, y_train)
+y_pred = rf_model.predict(X_test)
+accuracy = accuracy_score(y_test, y_pred)
+most_likely_education = label_encoders['education'].inverse_transform([rf_model.feature_importances_.argmax()])[0]
+result = {'type': 'string', 'value': f'The education most likely to be past due is {most_likely_education}. Model accuracy: {accuracy}'}
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\helpers\optional.py", line 122, in import_dependency
+    module = importlib.import_module(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AKlykov\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1126, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'sklearn'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 85, in execute
+    result = self.execute_code(input, code_context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 157, in execute_code
+    environment: dict = get_environment(self._additional_dependencies)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\helpers\optional.py", line 59, in get_environment
+    **{
+      ^
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\helpers\optional.py", line 62, in <dictcomp>
+    if hasattr(import_dependency(lib["module"]), lib["name"])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\helpers\optional.py", line 125, in import_dependency
+    raise ImportError(msg) from exc
+ImportError: Missing optional dependency 'sklearn.model_selection'.  Use pip or conda to install sklearn.model_selection.
+
+
+Fix the python code above and return the new python code:
+            
+2024-04-09 15:25:48 [INFO] Code generated:
+            ```
+            import pandas as pd
+from sklearn.preprocessing import LabelEncoder
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+
+# Concatenate the dataframes
+df = pd.concat(dfs)
+df.drop(['Loan_ID', 'effective_date', 'due_date', 'paid_off_time'], axis=1, inplace=True)
+df['past_due_days'].fillna(0, inplace=True)
+
+label_encoders = {}
+for col in ['loan_status', 'education', 'Gender']:
+    le = LabelEncoder()
+    df[col] = le.fit_transform(df[col])
+    label_encoders[col] = le
+
+X = df.drop('past_due_days', axis=1)
+y = df['past_due_days']
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+rf_model = RandomForestClassifier()
+rf_model.fit(X_train, y_train)
+
+y_pred = rf_model.predict(X_test)
+accuracy = accuracy_score(y_test, y_pred)
+
+most_likely_education = label_encoders['education'].inverse_transform([rf_model.feature_importances_.argmax()])[0]
+
+result = {'type': 'string', 'value': f'The education most likely to be past due is {most_likely_education}. Model accuracy: {accuracy}'}
+            ```
+            
+2024-04-09 15:25:48 [INFO] Executing Step 2: CodeCleaning
+2024-04-09 15:25:48 [INFO] 
+Code running:
+```
+df = pd.concat(dfs)
+df.drop(['Loan_ID', 'effective_date', 'due_date', 'paid_off_time'], axis=1, inplace=True)
+df['past_due_days'].fillna(0, inplace=True)
+label_encoders = {}
+for col in ['loan_status', 'education', 'Gender']:
+    le = LabelEncoder()
+    df[col] = le.fit_transform(df[col])
+    label_encoders[col] = le
+X = df.drop('past_due_days', axis=1)
+y = df['past_due_days']
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+rf_model = RandomForestClassifier()
+rf_model.fit(X_train, y_train)
+y_pred = rf_model.predict(X_test)
+accuracy = accuracy_score(y_test, y_pred)
+most_likely_education = label_encoders['education'].inverse_transform([rf_model.feature_importances_.argmax()])[0]
+result = {'type': 'string', 'value': f'The education most likely to be past due is {most_likely_education}. Model accuracy: {accuracy}'}
+        ```
+2024-04-09 15:25:48 [ERROR] Failed with error: Traceback (most recent call last):
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\helpers\optional.py", line 122, in import_dependency
+    module = importlib.import_module(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AKlykov\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1126, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'sklearn'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 85, in execute
+    result = self.execute_code(input, code_context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 157, in execute_code
+    environment: dict = get_environment(self._additional_dependencies)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\helpers\optional.py", line 59, in get_environment
+    **{
+      ^
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\helpers\optional.py", line 62, in <dictcomp>
+    if hasattr(import_dependency(lib["module"]), lib["name"])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\helpers\optional.py", line 125, in import_dependency
+    raise ImportError(msg) from exc
+ImportError: Missing optional dependency 'sklearn.model_selection'.  Use pip or conda to install sklearn.model_selection.
+
+2024-04-09 15:25:48 [WARNING] Failed to execute code retrying with a correction framework [retry number: 3]
+2024-04-09 15:25:48 [INFO] Executing Pipeline: ErrorCorrectionPipeline
+2024-04-09 15:25:48 [INFO] Executing Step 0: ErrorPromptGeneration
+2024-04-09 15:25:48 [INFO] Using prompt: <dataframe>
+dfs[0]:500x11
+Loan_ID,loan_status,Principal,terms,effective_date,due_date,paid_off_time,past_due_days,age,education,Gender
+xqd20160261,COLLECTION_PAIDOFF,800,15,9/11/2016,10/9/2016,,,47,High School or Below,female
+xqd20160433,PAIDOFF,700,7,9/8/2016,10/10/2016,9/26/2016 19:35,51.0,43,Master or Above,male
+xqd20160399,COLLECTION,1000,30,9/14/2016,10/11/2016,10/11/2016 13:01,61.0,42,Bechalor,male
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ create a prediction model that will predict which education will most likely be past due
+
+You generated this python code:
+df = pd.concat(dfs)
+df.drop(['Loan_ID', 'effective_date', 'due_date', 'paid_off_time'], axis=1, inplace=True)
+df['past_due_days'].fillna(0, inplace=True)
+label_encoders = {}
+for col in ['loan_status', 'education', 'Gender']:
+    le = LabelEncoder()
+    df[col] = le.fit_transform(df[col])
+    label_encoders[col] = le
+X = df.drop('past_due_days', axis=1)
+y = df['past_due_days']
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+rf_model = RandomForestClassifier()
+rf_model.fit(X_train, y_train)
+y_pred = rf_model.predict(X_test)
+accuracy = accuracy_score(y_test, y_pred)
+most_likely_education = label_encoders['education'].inverse_transform([rf_model.feature_importances_.argmax()])[0]
+result = {'type': 'string', 'value': f'The education most likely to be past due is {most_likely_education}. Model accuracy: {accuracy}'}
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\helpers\optional.py", line 122, in import_dependency
+    module = importlib.import_module(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AKlykov\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1126, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'sklearn'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 85, in execute
+    result = self.execute_code(input, code_context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 157, in execute_code
+    environment: dict = get_environment(self._additional_dependencies)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\helpers\optional.py", line 59, in get_environment
+    **{
+      ^
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\helpers\optional.py", line 62, in <dictcomp>
+    if hasattr(import_dependency(lib["module"]), lib["name"])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\helpers\optional.py", line 125, in import_dependency
+    raise ImportError(msg) from exc
+ImportError: Missing optional dependency 'sklearn.model_selection'.  Use pip or conda to install sklearn.model_selection.
+
+
+Fix the python code above and return the new python code:
+2024-04-09 15:25:48 [INFO] Executing Step 1: CodeGenerator
+2024-04-09 15:25:48 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-04-09 15:25:48 [INFO] Retrying request to /chat/completions in 20.000000 seconds
+2024-04-09 15:26:12 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-04-09 15:26:12 [INFO] Prompt used:
+            <dataframe>
+dfs[0]:500x11
+Loan_ID,loan_status,Principal,terms,effective_date,due_date,paid_off_time,past_due_days,age,education,Gender
+xqd20160261,COLLECTION_PAIDOFF,800,15,9/11/2016,10/9/2016,,,47,High School or Below,female
+xqd20160433,PAIDOFF,700,7,9/8/2016,10/10/2016,9/26/2016 19:35,51.0,43,Master or Above,male
+xqd20160399,COLLECTION,1000,30,9/14/2016,10/11/2016,10/11/2016 13:01,61.0,42,Bechalor,male
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ create a prediction model that will predict which education will most likely be past due
+
+You generated this python code:
+df = pd.concat(dfs)
+df.drop(['Loan_ID', 'effective_date', 'due_date', 'paid_off_time'], axis=1, inplace=True)
+df['past_due_days'].fillna(0, inplace=True)
+label_encoders = {}
+for col in ['loan_status', 'education', 'Gender']:
+    le = LabelEncoder()
+    df[col] = le.fit_transform(df[col])
+    label_encoders[col] = le
+X = df.drop('past_due_days', axis=1)
+y = df['past_due_days']
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+rf_model = RandomForestClassifier()
+rf_model.fit(X_train, y_train)
+y_pred = rf_model.predict(X_test)
+accuracy = accuracy_score(y_test, y_pred)
+most_likely_education = label_encoders['education'].inverse_transform([rf_model.feature_importances_.argmax()])[0]
+result = {'type': 'string', 'value': f'The education most likely to be past due is {most_likely_education}. Model accuracy: {accuracy}'}
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\helpers\optional.py", line 122, in import_dependency
+    module = importlib.import_module(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AKlykov\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1126, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'sklearn'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 85, in execute
+    result = self.execute_code(input, code_context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 157, in execute_code
+    environment: dict = get_environment(self._additional_dependencies)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\helpers\optional.py", line 59, in get_environment
+    **{
+      ^
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\helpers\optional.py", line 62, in <dictcomp>
+    if hasattr(import_dependency(lib["module"]), lib["name"])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\helpers\optional.py", line 125, in import_dependency
+    raise ImportError(msg) from exc
+ImportError: Missing optional dependency 'sklearn.model_selection'.  Use pip or conda to install sklearn.model_selection.
+
+
+Fix the python code above and return the new python code:
+            
+2024-04-09 15:26:12 [INFO] Code generated:
+            ```
+            import pandas as pd
+from sklearn.preprocessing import LabelEncoder
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+
+# Assuming dfs is a list of dataframes
+df = pd.concat(dfs)
+df.drop(['Loan_ID', 'effective_date', 'due_date', 'paid_off_time'], axis=1, inplace=True)
+df['past_due_days'].fillna(0, inplace=True)
+
+label_encoders = {}
+for col in ['loan_status', 'education', 'Gender']:
+    le = LabelEncoder()
+    df[col] = le.fit_transform(df[col])
+    label_encoders[col] = le
+
+X = df.drop('past_due_days', axis=1)
+y = df['past_due_days']
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+rf_model = RandomForestClassifier()
+rf_model.fit(X_train, y_train)
+
+y_pred = rf_model.predict(X_test)
+accuracy = accuracy_score(y_test, y_pred)
+
+most_likely_education = label_encoders['education'].inverse_transform([rf_model.feature_importances_.argmax()])[0]
+
+result = {'type': 'string', 'value': f'The education most likely to be past due is {most_likely_education}. Model accuracy: {accuracy}'}
+            ```
+            
+2024-04-09 15:26:12 [INFO] Executing Step 2: CodeCleaning
+2024-04-09 15:26:12 [INFO] 
+Code running:
+```
+df = pd.concat(dfs)
+df.drop(['Loan_ID', 'effective_date', 'due_date', 'paid_off_time'], axis=1, inplace=True)
+df['past_due_days'].fillna(0, inplace=True)
+label_encoders = {}
+for col in ['loan_status', 'education', 'Gender']:
+    le = LabelEncoder()
+    df[col] = le.fit_transform(df[col])
+    label_encoders[col] = le
+X = df.drop('past_due_days', axis=1)
+y = df['past_due_days']
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+rf_model = RandomForestClassifier()
+rf_model.fit(X_train, y_train)
+y_pred = rf_model.predict(X_test)
+accuracy = accuracy_score(y_test, y_pred)
+most_likely_education = label_encoders['education'].inverse_transform([rf_model.feature_importances_.argmax()])[0]
+result = {'type': 'string', 'value': f'The education most likely to be past due is {most_likely_education}. Model accuracy: {accuracy}'}
+        ```
+2024-04-09 15:26:12 [ERROR] Failed with error: Traceback (most recent call last):
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\helpers\optional.py", line 122, in import_dependency
+    module = importlib.import_module(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AKlykov\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1126, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'sklearn'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 85, in execute
+    result = self.execute_code(input, code_context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 157, in execute_code
+    environment: dict = get_environment(self._additional_dependencies)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\helpers\optional.py", line 59, in get_environment
+    **{
+      ^
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\helpers\optional.py", line 62, in <dictcomp>
+    if hasattr(import_dependency(lib["module"]), lib["name"])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\AKlykov\PandasAI\.venv\Lib\site-packages\pandasai\helpers\optional.py", line 125, in import_dependency
+    raise ImportError(msg) from exc
+ImportError: Missing optional dependency 'sklearn.model_selection'.  Use pip or conda to install sklearn.model_selection.
+
+2024-04-09 15:26:12 [ERROR] Pipeline failed on step 6: Missing optional dependency 'sklearn.model_selection'.  Use pip or conda to install sklearn.model_selection.
+2024-04-09 15:28:09 [INFO] Question: create a prediction model that will predict which education will most likely be past due
+2024-04-09 15:28:09 [INFO] Running PandasAI with openai LLM...
+2024-04-09 15:28:09 [INFO] Prompt ID: afa2f1f2-05c8-46bb-87dc-6c4dbeafe8f3
+2024-04-09 15:28:09 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-09 15:28:09 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-09 15:28:09 [INFO] Executing Step 1: CacheLookup
+2024-04-09 15:28:09 [INFO] Using cached response
+2024-04-09 15:28:09 [INFO] Executing Step 2: PromptGeneration
+2024-04-09 15:28:09 [INFO] Executing Step 2: Skipping...
+2024-04-09 15:28:09 [INFO] Executing Step 3: CodeGenerator
+2024-04-09 15:28:09 [INFO] Executing Step 3: Skipping...
+2024-04-09 15:28:09 [INFO] Executing Step 4: CachePopulation
+2024-04-09 15:28:09 [INFO] Executing Step 4: Skipping...
+2024-04-09 15:28:09 [INFO] Executing Step 5: CodeCleaning
+2024-04-09 15:28:09 [INFO] 
+Code running:
+```
+df = pd.concat(dfs)
+df.drop(['Loan_ID', 'effective_date', 'due_date', 'paid_off_time'], axis=1, inplace=True)
+df['past_due_days'].fillna(0, inplace=True)
+label_encoders = {}
+for col in ['loan_status', 'education', 'Gender']:
+    le = LabelEncoder()
+    df[col] = le.fit_transform(df[col])
+    label_encoders[col] = le
+X = df.drop('past_due_days', axis=1)
+y = df['past_due_days']
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+rf_model = RandomForestClassifier()
+rf_model.fit(X_train, y_train)
+y_pred = rf_model.predict(X_test)
+accuracy = accuracy_score(y_test, y_pred)
+most_likely_education = label_encoders['education'].inverse_transform([rf_model.feature_importances_.argmax()])[0]
+result = {'type': 'string', 'value': f'The education most likely to be past due is {most_likely_education}. Model accuracy: {accuracy}'}
+        ```
+2024-04-09 15:28:09 [INFO] Executing Step 6: CodeExecution
+2024-04-09 15:28:19 [INFO] Executing Step 7: ResultValidation
+2024-04-09 15:28:19 [INFO] Answer: {'type': 'string', 'value': 'The education most likely to be past due is Bechalor. Model accuracy: 0.67'}
+2024-04-09 15:28:19 [INFO] Executing Step 8: ResultParsing
+2024-04-09 15:29:08 [INFO] Question: predict which education level is most likely to be past due
+2024-04-09 15:29:08 [INFO] Running PandasAI with openai LLM...
+2024-04-09 15:29:08 [INFO] Prompt ID: 5dedf473-29ba-404b-bf96-2f6e0f344e3f
+2024-04-09 15:29:08 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-09 15:29:08 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-09 15:29:08 [INFO] Executing Step 1: CacheLookup
+2024-04-09 15:29:08 [INFO] Executing Step 2: PromptGeneration
+2024-04-09 15:29:09 [INFO] Querying without using training data.
+2024-04-09 15:29:10 [INFO] Querying without using training docs.
+2024-04-09 15:29:10 [INFO] Using prompt: <dataframe>
+dfs[0]:500x11
+Loan_ID,loan_status,Principal,terms,effective_date,due_date,paid_off_time,past_due_days,age,education,Gender
+xqd25660470,COLLECTION,800,30,9/9/2016,9/23/2016,,,27,college,male
+xqd20160428,COLLECTION_PAIDOFF,1000,7,9/8/2016,9/24/2016,10/30/2016 14:19,13.0,30,Bechalor,female
+xqd20160416,PAIDOFF,300,15,9/12/2016,10/12/2016,9/26/2016 11:35,19.0,42,High School or Below,male
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+
+
+
+
+### QUERY
+ predict which education level is most likely to be past due
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-04-09 15:29:10 [INFO] Executing Step 3: CodeGenerator
+2024-04-09 15:29:15 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-04-09 15:29:15 [INFO] Prompt used:
+            <dataframe>
+dfs[0]:500x11
+Loan_ID,loan_status,Principal,terms,effective_date,due_date,paid_off_time,past_due_days,age,education,Gender
+xqd25660470,COLLECTION,800,30,9/9/2016,9/23/2016,,,27,college,male
+xqd20160428,COLLECTION_PAIDOFF,1000,7,9/8/2016,9/24/2016,10/30/2016 14:19,13.0,30,Bechalor,female
+xqd20160416,PAIDOFF,300,15,9/12/2016,10/12/2016,9/26/2016 11:35,19.0,42,High School or Below,male
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+
+
+
+
+### QUERY
+ predict which education level is most likely to be past due
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-04-09 15:29:15 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+
+# Data
+data = {'Loan_ID': ['xqd25660470', 'xqd20160428', 'xqd20160416'],
+        'loan_status': ['COLLECTION', 'COLLECTION_PAIDOFF', 'PAIDOFF'],
+        'Principal': [800, 1000, 300],
+        'terms': [30, 7, 15],
+        'effective_date': ['9/9/2016', '9/8/2016', '9/12/2016'],
+        'due_date': ['9/23/2016', '9/24/2016', '10/12/2016'],
+        'paid_off_time': [None, '10/30/2016 14:19', '9/26/2016 11:35'],
+        'past_due_days': [None, 13.0, 19.0],
+        'age': [27, 30, 42],
+        'education': ['college', 'Bechalor', 'High School or Below'],
+        'Gender': ['male', 'female', 'male']}
+
+# Create DataFrame
+df = pd.DataFrame(data)
+
+# Predict which education level is most likely to be past due
+past_due_education = df[df['past_due_days'].notnull()]['education'].value_counts().idxmax()
+
+result = {"type": "string", "value": f"The education level most likely to be past due is: {past_due_education}"}
+            ```
+            
+2024-04-09 15:29:15 [INFO] Executing Step 4: CachePopulation
+2024-04-09 15:29:15 [INFO] Executing Step 5: CodeCleaning
+2024-04-09 15:29:15 [INFO] 
+Code running:
+```
+data = {'Loan_ID': ['xqd25660470', 'xqd20160428', 'xqd20160416'], 'loan_status': ['COLLECTION', 'COLLECTION_PAIDOFF', 'PAIDOFF'], 'Principal': [800, 1000, 300], 'terms': [30, 7, 15], 'effective_date': ['9/9/2016', '9/8/2016', '9/12/2016'], 'due_date': ['9/23/2016', '9/24/2016', '10/12/2016'], 'paid_off_time': [None, '10/30/2016 14:19', '9/26/2016 11:35'], 'past_due_days': [None, 13.0, 19.0], 'age': [27, 30, 42], 'education': ['college', 'Bechalor', 'High School or Below'], 'Gender': ['male', 'female', 'male']}
+df = dfs[0]
+past_due_education = df[df['past_due_days'].notnull()]['education'].value_counts().idxmax()
+result = {'type': 'string', 'value': f'The education level most likely to be past due is: {past_due_education}'}
+        ```
+2024-04-09 15:29:15 [INFO] Executing Step 6: CodeExecution
+2024-04-09 15:29:15 [INFO] Executing Step 7: ResultValidation
+2024-04-09 15:29:15 [INFO] Answer: {'type': 'string', 'value': 'The education level most likely to be past due is: college'}
+2024-04-09 15:29:15 [INFO] Executing Step 8: ResultParsing
+2024-04-09 15:29:47 [INFO] Question: predict which education level is most likely to be past due
+2024-04-09 15:29:47 [INFO] Running PandasAI with openai LLM...
+2024-04-09 15:29:47 [INFO] Prompt ID: e051c580-34fa-4e0b-8a1c-b3fb1fd59b7e
+2024-04-09 15:29:47 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-09 15:29:47 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-09 15:29:47 [INFO] Executing Step 1: CacheLookup
+2024-04-09 15:29:47 [INFO] Using cached response
+2024-04-09 15:29:47 [INFO] Executing Step 2: PromptGeneration
+2024-04-09 15:29:47 [INFO] Executing Step 2: Skipping...
+2024-04-09 15:29:47 [INFO] Executing Step 3: CodeGenerator
+2024-04-09 15:29:47 [INFO] Executing Step 3: Skipping...
+2024-04-09 15:29:47 [INFO] Executing Step 4: CachePopulation
+2024-04-09 15:29:47 [INFO] Executing Step 4: Skipping...
+2024-04-09 15:29:47 [INFO] Executing Step 5: CodeCleaning
+2024-04-09 15:29:47 [INFO] 
+Code running:
+```
+data = {'Loan_ID': ['xqd25660470', 'xqd20160428', 'xqd20160416'], 'loan_status': ['COLLECTION', 'COLLECTION_PAIDOFF', 'PAIDOFF'], 'Principal': [800, 1000, 300], 'terms': [30, 7, 15], 'effective_date': ['9/9/2016', '9/8/2016', '9/12/2016'], 'due_date': ['9/23/2016', '9/24/2016', '10/12/2016'], 'paid_off_time': [None, '10/30/2016 14:19', '9/26/2016 11:35'], 'past_due_days': [None, 13.0, 19.0], 'age': [27, 30, 42], 'education': ['college', 'Bechalor', 'High School or Below'], 'Gender': ['male', 'female', 'male']}
+df = dfs[0]
+past_due_education = df[df['past_due_days'].notnull()]['education'].value_counts().idxmax()
+result = {'type': 'string', 'value': f'The education level most likely to be past due is: {past_due_education}'}
+        ```
+2024-04-09 15:29:47 [INFO] Executing Step 6: CodeExecution
+2024-04-09 15:29:47 [INFO] Executing Step 7: ResultValidation
+2024-04-09 15:29:47 [INFO] Answer: {'type': 'string', 'value': 'The education level most likely to be past due is: college'}
+2024-04-09 15:29:47 [INFO] Executing Step 8: ResultParsing
+2024-04-09 15:30:19 [INFO] Question: plot which education level was past due by due date
+2024-04-09 15:30:19 [INFO] Running PandasAI with openai LLM...
+2024-04-09 15:30:19 [INFO] Prompt ID: f27f9c6c-e94c-4640-b6c0-ff045f38de9c
+2024-04-09 15:30:19 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-09 15:30:19 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-09 15:30:19 [INFO] Executing Step 1: CacheLookup
+2024-04-09 15:30:19 [INFO] Executing Step 2: PromptGeneration
+2024-04-09 15:30:21 [INFO] Querying without using training data.
+2024-04-09 15:30:22 [INFO] Querying without using training docs.
+2024-04-09 15:30:22 [INFO] Using prompt: <dataframe>
+dfs[0]:500x11
+Loan_ID,loan_status,Principal,terms,effective_date,due_date,paid_off_time,past_due_days,age,education,Gender
+xqd20160462,PAIDOFF,300,7,9/10/2016,10/13/2016,10/9/2016 8:53,12.0,47,High School or Below,male
+xqd20160286,COLLECTION,800,15,9/9/2016,9/25/2016,9/25/2016 20:56,6.0,37,Master or Above,female
+xqd20160354,COLLECTION_PAIDOFF,900,30,9/8/2016,9/17/2016,,,41,college,male
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+
+
+
+
+### QUERY
+ plot which education level was past due by due date
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-04-09 15:30:22 [INFO] Executing Step 3: CodeGenerator
+2024-04-09 15:30:25 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-04-09 15:30:25 [INFO] Prompt used:
+            <dataframe>
+dfs[0]:500x11
+Loan_ID,loan_status,Principal,terms,effective_date,due_date,paid_off_time,past_due_days,age,education,Gender
+xqd20160462,PAIDOFF,300,7,9/10/2016,10/13/2016,10/9/2016 8:53,12.0,47,High School or Below,male
+xqd20160286,COLLECTION,800,15,9/9/2016,9/25/2016,9/25/2016 20:56,6.0,37,Master or Above,female
+xqd20160354,COLLECTION_PAIDOFF,900,30,9/8/2016,9/17/2016,,,41,college,male
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+
+
+
+
+### QUERY
+ plot which education level was past due by due date
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-04-09 15:30:25 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Convert past_due_days to numeric
+dfs[0]['past_due_days'] = pd.to_numeric(dfs[0]['past_due_days'], errors='coerce')
+
+# Filter rows where past_due_days is not null
+past_due_education = dfs[0][dfs[0]['past_due_days'].notnull()]
+
+# Group by education level and count the occurrences
+education_past_due_count = past_due_education.groupby('education')['past_due_days'].count()
+
+# Plotting the data
+plt.figure(figsize=(10, 6))
+education_past_due_count.plot(kind='bar', color='skyblue')
+plt.title('Number of Past Due Loans by Education Level')
+plt.xlabel('Education Level')
+plt.ylabel('Count')
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.savefig('education_past_due_plot.png')
+
+# Declare result var
+result = {"type": "plot", "value": "education_past_due_plot.png"}
+            ```
+            
+2024-04-09 15:30:25 [INFO] Executing Step 4: CachePopulation
+2024-04-09 15:30:25 [INFO] Executing Step 5: CodeCleaning
+2024-04-09 15:30:25 [INFO] Saving charts to C:\Users\AKlykov\PandasAI\exports\charts\temp_chart.png
+2024-04-09 15:30:25 [INFO] 
+Code running:
+```
+dfs[0]['past_due_days'] = pd.to_numeric(dfs[0]['past_due_days'], errors='coerce')
+past_due_education = dfs[0][dfs[0]['past_due_days'].notnull()]
+education_past_due_count = past_due_education.groupby('education')['past_due_days'].count()
+plt.figure(figsize=(10, 6))
+education_past_due_count.plot(kind='bar', color='skyblue')
+plt.title('Number of Past Due Loans by Education Level')
+plt.xlabel('Education Level')
+plt.ylabel('Count')
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.savefig('C:/Users/AKlykov/PandasAI/exports/charts/temp_chart.png')
+result = {'type': 'plot', 'value': 'C:/Users/AKlykov/PandasAI/exports/charts/temp_chart.png'}
+        ```
+2024-04-09 15:30:25 [INFO] Executing Step 6: CodeExecution
+2024-04-09 15:30:25 [INFO] Executing Step 7: ResultValidation
+2024-04-09 15:30:25 [INFO] Answer: {'type': 'plot', 'value': 'C:/Users/AKlykov/PandasAI/exports/charts/temp_chart.png'}
+2024-04-09 15:30:25 [INFO] Executing Step 8: ResultParsing
+2024-04-09 15:31:51 [INFO] Question: what is the difference between the paid off time and effective date? group this by education
+2024-04-09 15:31:51 [INFO] Running PandasAI with openai LLM...
+2024-04-09 15:31:51 [INFO] Prompt ID: d34008a7-5206-4cfb-b995-8701c5659f1b
+2024-04-09 15:31:51 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-09 15:31:51 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-09 15:31:51 [INFO] Executing Step 1: CacheLookup
+2024-04-09 15:31:51 [INFO] Executing Step 2: PromptGeneration
+2024-04-09 15:31:53 [INFO] Querying without using training data.
+2024-04-09 15:31:54 [INFO] Querying without using training docs.
+2024-04-09 15:31:54 [INFO] Using prompt: <dataframe>
+dfs[0]:500x11
+Loan_ID,loan_status,Principal,terms,effective_date,due_date,paid_off_time,past_due_days,age,education,Gender
+xqd20160138,COLLECTION,500,15,9/9/2016,10/13/2016,10/11/2016 17:22,76.0,44,Master or Above,male
+xqd20160323,PAIDOFF,700,30,9/12/2016,9/28/2016,10/10/2016 16:13,19.0,25,Bechalor,female
+xqd20160026,COLLECTION_PAIDOFF,800,7,9/8/2016,10/12/2016,,,19,college,female
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+
+
+
+
+### QUERY
+ what is the difference between the paid off time and effective date? group this by education
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-04-09 15:31:54 [INFO] Executing Step 3: CodeGenerator
+2024-04-09 15:31:57 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-04-09 15:31:57 [INFO] Prompt used:
+            <dataframe>
+dfs[0]:500x11
+Loan_ID,loan_status,Principal,terms,effective_date,due_date,paid_off_time,past_due_days,age,education,Gender
+xqd20160138,COLLECTION,500,15,9/9/2016,10/13/2016,10/11/2016 17:22,76.0,44,Master or Above,male
+xqd20160323,PAIDOFF,700,30,9/12/2016,9/28/2016,10/10/2016 16:13,19.0,25,Bechalor,female
+xqd20160026,COLLECTION_PAIDOFF,800,7,9/8/2016,10/12/2016,,,19,college,female
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+
+
+
+
+### QUERY
+ what is the difference between the paid off time and effective date? group this by education
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-04-09 15:31:57 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+
+# Convert the 'effective_date' and 'paid_off_time' columns to datetime format
+dfs[0]['effective_date'] = pd.to_datetime(dfs[0]['effective_date'])
+dfs[0]['paid_off_time'] = pd.to_datetime(dfs[0]['paid_off_time'])
+
+# Calculate the difference between 'paid_off_time' and 'effective_date' in days
+dfs[0]['days_to_payoff'] = (dfs[0]['paid_off_time'] - dfs[0]['effective_date']).dt.days
+
+# Group by education and calculate the average days taken to pay off the loan
+result_df = dfs[0].groupby('education')['days_to_payoff'].mean().reset_index()
+
+result = {"type": "dataframe", "value": result_df}
+            ```
+            
+2024-04-09 15:31:57 [INFO] Executing Step 4: CachePopulation
+2024-04-09 15:31:57 [INFO] Executing Step 5: CodeCleaning
+2024-04-09 15:31:57 [INFO] 
+Code running:
+```
+dfs[0]['effective_date'] = pd.to_datetime(dfs[0]['effective_date'])
+dfs[0]['paid_off_time'] = pd.to_datetime(dfs[0]['paid_off_time'])
+dfs[0]['days_to_payoff'] = (dfs[0]['paid_off_time'] - dfs[0]['effective_date']).dt.days
+result_df = dfs[0].groupby('education')['days_to_payoff'].mean().reset_index()
+result = {'type': 'dataframe', 'value': result_df}
+        ```
+2024-04-09 15:31:57 [INFO] Executing Step 6: CodeExecution
+2024-04-09 15:31:57 [INFO] Executing Step 7: ResultValidation
+2024-04-09 15:31:57 [INFO] Answer: {'type': 'dataframe', 'value':               education  days_to_payoff
+0              Bechalor       21.732143
+1  High School or Below       23.462500
+2       Master or Above        5.666667
+3               college       24.856354}
+2024-04-09 15:31:57 [INFO] Executing Step 8: ResultParsing
+2024-04-09 15:32:23 [INFO] Question: plot the difference between the paid off time and effective date? group this by education
+2024-04-09 15:32:23 [INFO] Running PandasAI with openai LLM...
+2024-04-09 15:32:23 [INFO] Prompt ID: 0df6c4d4-838d-4f49-ab80-aae221d9f204
+2024-04-09 15:32:23 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-09 15:32:23 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-09 15:32:23 [INFO] Executing Step 1: CacheLookup
+2024-04-09 15:32:23 [INFO] Executing Step 2: PromptGeneration
+2024-04-09 15:32:24 [INFO] Querying without using training data.
+2024-04-09 15:32:25 [INFO] Querying without using training docs.
+2024-04-09 15:32:25 [INFO] Using prompt: <dataframe>
+dfs[0]:500x11
+Loan_ID,loan_status,Principal,terms,effective_date,due_date,paid_off_time,past_due_days,age,education,Gender
+xqd20160112,PAIDOFF,300,15,9/10/2016,10/25/2016,9/27/2016 7:48,,35,Bechalor,male
+xqd20160443,COLLECTION_PAIDOFF,900,30,9/12/2016,9/18/2016,,56.0,42,Master or Above,female
+xqd20182575,COLLECTION,700,7,9/9/2016,9/17/2016,9/26/2016 11:35,14.0,28,High School or Below,male
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+
+
+
+
+### QUERY
+ plot the difference between the paid off time and effective date? group this by education
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-04-09 15:32:25 [INFO] Executing Step 3: CodeGenerator
+2024-04-09 15:32:31 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-04-09 15:32:31 [INFO] Prompt used:
+            <dataframe>
+dfs[0]:500x11
+Loan_ID,loan_status,Principal,terms,effective_date,due_date,paid_off_time,past_due_days,age,education,Gender
+xqd20160112,PAIDOFF,300,15,9/10/2016,10/25/2016,9/27/2016 7:48,,35,Bechalor,male
+xqd20160443,COLLECTION_PAIDOFF,900,30,9/12/2016,9/18/2016,,56.0,42,Master or Above,female
+xqd20182575,COLLECTION,700,7,9/9/2016,9/17/2016,9/26/2016 11:35,14.0,28,High School or Below,male
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+
+
+
+
+### QUERY
+ plot the difference between the paid off time and effective date? group this by education
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-04-09 15:32:31 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Data
+data = {'Loan_ID': ['xqd20160112', 'xqd20160443', 'xqd20182575'],
+        'loan_status': ['PAIDOFF', 'COLLECTION_PAIDOFF', 'COLLECTION'],
+        'Principal': [300, 900, 700],
+        'terms': [15, 30, 7],
+        'effective_date': ['9/10/2016', '9/12/2016', '9/9/2016'],
+        'due_date': ['10/25/2016', '9/18/2016', '9/17/2016'],
+        'paid_off_time': ['9/27/2016 7:48', None, '9/26/2016 11:35'],
+        'past_due_days': [None, 56.0, 14.0],
+        'age': [35, 42, 28],
+        'education': ['Bechalor', 'Master or Above', 'High School or Below'],
+        'Gender': ['male', 'female', 'male']}
+
+dfs = [pd.DataFrame(data)]
+
+# Convert date columns to datetime
+dfs[0]['effective_date'] = pd.to_datetime(dfs[0]['effective_date'])
+dfs[0]['paid_off_time'] = pd.to_datetime(dfs[0]['paid_off_time'])
+
+# Calculate the difference between paid off time and effective date
+dfs[0]['paid_off_effective_diff'] = (dfs[0]['paid_off_time'] - dfs[0]['effective_date']).dt.days
+
+# Group by education and calculate mean difference
+grouped_data = dfs[0].groupby('education')['paid_off_effective_diff'].mean()
+
+# Plotting
+plt.figure(figsize=(10, 6))
+grouped_data.plot(kind='bar', color='skyblue')
+plt.title('Difference between Paid Off Time and Effective Date by Education')
+plt.xlabel('Education Level')
+plt.ylabel('Mean Difference (days)')
+plt.xticks(rotation=45)
+plt.grid(axis='y', linestyle='--', linewidth=0.5)
+plt.tight_layout()
+
+# Save the plot as a PNG file
+plt.savefig('paid_off_effective_diff_by_education.png')
+
+# Declare result var
+result = {"type": "plot", "value": "paid_off_effective_diff_by_education.png"}
+            ```
+            
+2024-04-09 15:32:31 [INFO] Executing Step 4: CachePopulation
+2024-04-09 15:32:31 [INFO] Executing Step 5: CodeCleaning
+2024-04-09 15:32:31 [INFO] Saving charts to C:\Users\AKlykov\PandasAI\exports\charts\temp_chart.png
+2024-04-09 15:32:31 [INFO] 
+Code running:
+```
+data = {'Loan_ID': ['xqd20160112', 'xqd20160443', 'xqd20182575'], 'loan_status': ['PAIDOFF', 'COLLECTION_PAIDOFF', 'COLLECTION'], 'Principal': [300, 900, 700], 'terms': [15, 30, 7], 'effective_date': ['9/10/2016', '9/12/2016', '9/9/2016'], 'due_date': ['10/25/2016', '9/18/2016', '9/17/2016'], 'paid_off_time': ['9/27/2016 7:48', None, '9/26/2016 11:35'], 'past_due_days': [None, 56.0, 14.0], 'age': [35, 42, 28], 'education': ['Bechalor', 'Master or Above', 'High School or Below'], 'Gender': ['male', 'female', 'male']}
+dfs[0]['effective_date'] = pd.to_datetime(dfs[0]['effective_date'])
+dfs[0]['paid_off_time'] = pd.to_datetime(dfs[0]['paid_off_time'])
+dfs[0]['paid_off_effective_diff'] = (dfs[0]['paid_off_time'] - dfs[0]['effective_date']).dt.days
+grouped_data = dfs[0].groupby('education')['paid_off_effective_diff'].mean()
+plt.figure(figsize=(10, 6))
+grouped_data.plot(kind='bar', color='skyblue')
+plt.title('Difference between Paid Off Time and Effective Date by Education')
+plt.xlabel('Education Level')
+plt.ylabel('Mean Difference (days)')
+plt.xticks(rotation=45)
+plt.grid(axis='y', linestyle='--', linewidth=0.5)
+plt.tight_layout()
+plt.savefig('C:/Users/AKlykov/PandasAI/exports/charts/temp_chart.png')
+result = {'type': 'plot', 'value': 'C:/Users/AKlykov/PandasAI/exports/charts/temp_chart.png'}
+        ```
+2024-04-09 15:32:31 [INFO] Executing Step 6: CodeExecution
+2024-04-09 15:32:31 [INFO] Executing Step 7: ResultValidation
+2024-04-09 15:32:31 [INFO] Answer: {'type': 'plot', 'value': 'C:/Users/AKlykov/PandasAI/exports/charts/temp_chart.png'}
+2024-04-09 15:32:31 [INFO] Executing Step 8: ResultParsing
+2024-04-16 09:56:22 [INFO] Question: predict which education level is most likely to be past due
+2024-04-16 09:56:22 [INFO] Running PandasAI with openai LLM...
+2024-04-16 09:56:22 [INFO] Prompt ID: a7c3cf7a-331b-4c1a-9865-2f3ebc43c3fd
+2024-04-16 09:56:22 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-16 09:56:22 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-16 09:56:22 [INFO] Executing Step 1: CacheLookup
+2024-04-16 09:56:22 [INFO] Using cached response
+2024-04-16 09:56:22 [INFO] Executing Step 2: PromptGeneration
+2024-04-16 09:56:22 [INFO] Executing Step 2: Skipping...
+2024-04-16 09:56:22 [INFO] Executing Step 3: CodeGenerator
+2024-04-16 09:56:22 [INFO] Executing Step 3: Skipping...
+2024-04-16 09:56:22 [INFO] Executing Step 4: CachePopulation
+2024-04-16 09:56:22 [INFO] Executing Step 4: Skipping...
+2024-04-16 09:56:22 [INFO] Executing Step 5: CodeCleaning
+2024-04-16 09:56:22 [INFO] 
+Code running:
+```
+data = {'Loan_ID': ['xqd25660470', 'xqd20160428', 'xqd20160416'], 'loan_status': ['COLLECTION', 'COLLECTION_PAIDOFF', 'PAIDOFF'], 'Principal': [800, 1000, 300], 'terms': [30, 7, 15], 'effective_date': ['9/9/2016', '9/8/2016', '9/12/2016'], 'due_date': ['9/23/2016', '9/24/2016', '10/12/2016'], 'paid_off_time': [None, '10/30/2016 14:19', '9/26/2016 11:35'], 'past_due_days': [None, 13.0, 19.0], 'age': [27, 30, 42], 'education': ['college', 'Bechalor', 'High School or Below'], 'Gender': ['male', 'female', 'male']}
+df = dfs[0]
+past_due_education = df[df['past_due_days'].notnull()]['education'].value_counts().idxmax()
+result = {'type': 'string', 'value': f'The education level most likely to be past due is: {past_due_education}'}
+        ```
+2024-04-16 09:56:22 [INFO] Executing Step 6: CodeExecution
+2024-04-16 09:56:22 [INFO] Executing Step 7: ResultValidation
+2024-04-16 09:56:22 [INFO] Answer: {'type': 'string', 'value': 'The education level most likely to be past due is: college'}
+2024-04-16 09:56:22 [INFO] Executing Step 8: ResultParsing
+2024-04-16 09:56:38 [INFO] Question: predict which education level is most likely to be past due
+2024-04-16 09:56:38 [INFO] Running PandasAI with openai LLM...
+2024-04-16 09:56:38 [INFO] Prompt ID: a4a38d74-4796-4e68-9634-ca4392415817
+2024-04-16 09:56:38 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-16 09:56:38 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-16 09:56:38 [INFO] Executing Step 1: CacheLookup
+2024-04-16 09:56:38 [INFO] Using cached response
+2024-04-16 09:56:38 [INFO] Executing Step 2: PromptGeneration
+2024-04-16 09:56:38 [INFO] Executing Step 2: Skipping...
+2024-04-16 09:56:38 [INFO] Executing Step 3: CodeGenerator
+2024-04-16 09:56:38 [INFO] Executing Step 3: Skipping...
+2024-04-16 09:56:38 [INFO] Executing Step 4: CachePopulation
+2024-04-16 09:56:38 [INFO] Executing Step 4: Skipping...
+2024-04-16 09:56:38 [INFO] Executing Step 5: CodeCleaning
+2024-04-16 09:56:38 [INFO] 
+Code running:
+```
+data = {'Loan_ID': ['xqd25660470', 'xqd20160428', 'xqd20160416'], 'loan_status': ['COLLECTION', 'COLLECTION_PAIDOFF', 'PAIDOFF'], 'Principal': [800, 1000, 300], 'terms': [30, 7, 15], 'effective_date': ['9/9/2016', '9/8/2016', '9/12/2016'], 'due_date': ['9/23/2016', '9/24/2016', '10/12/2016'], 'paid_off_time': [None, '10/30/2016 14:19', '9/26/2016 11:35'], 'past_due_days': [None, 13.0, 19.0], 'age': [27, 30, 42], 'education': ['college', 'Bechalor', 'High School or Below'], 'Gender': ['male', 'female', 'male']}
+df = dfs[0]
+past_due_education = df[df['past_due_days'].notnull()]['education'].value_counts().idxmax()
+result = {'type': 'string', 'value': f'The education level most likely to be past due is: {past_due_education}'}
+        ```
+2024-04-16 09:56:38 [INFO] Executing Step 6: CodeExecution
+2024-04-16 09:56:38 [INFO] Executing Step 7: ResultValidation
+2024-04-16 09:56:38 [INFO] Answer: {'type': 'string', 'value': 'The education level most likely to be past due is: college'}
+2024-04-16 09:56:38 [INFO] Executing Step 8: ResultParsing
+2024-04-16 09:56:45 [INFO] Question: predict which education level is most likely to be past due
+2024-04-16 09:56:45 [INFO] Running PandasAI with openai LLM...
+2024-04-16 09:56:45 [INFO] Prompt ID: 756bad15-217f-4998-99ff-4f20680bfd43
+2024-04-16 09:56:45 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-16 09:56:45 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-16 09:56:45 [INFO] Executing Step 1: CacheLookup
+2024-04-16 09:56:45 [INFO] Using cached response
+2024-04-16 09:56:45 [INFO] Executing Step 2: PromptGeneration
+2024-04-16 09:56:45 [INFO] Executing Step 2: Skipping...
+2024-04-16 09:56:45 [INFO] Executing Step 3: CodeGenerator
+2024-04-16 09:56:45 [INFO] Executing Step 3: Skipping...
+2024-04-16 09:56:45 [INFO] Executing Step 4: CachePopulation
+2024-04-16 09:56:45 [INFO] Executing Step 4: Skipping...
+2024-04-16 09:56:45 [INFO] Executing Step 5: CodeCleaning
+2024-04-16 09:56:45 [INFO] 
+Code running:
+```
+data = {'Loan_ID': ['xqd25660470', 'xqd20160428', 'xqd20160416'], 'loan_status': ['COLLECTION', 'COLLECTION_PAIDOFF', 'PAIDOFF'], 'Principal': [800, 1000, 300], 'terms': [30, 7, 15], 'effective_date': ['9/9/2016', '9/8/2016', '9/12/2016'], 'due_date': ['9/23/2016', '9/24/2016', '10/12/2016'], 'paid_off_time': [None, '10/30/2016 14:19', '9/26/2016 11:35'], 'past_due_days': [None, 13.0, 19.0], 'age': [27, 30, 42], 'education': ['college', 'Bechalor', 'High School or Below'], 'Gender': ['male', 'female', 'male']}
+df = dfs[0]
+past_due_education = df[df['past_due_days'].notnull()]['education'].value_counts().idxmax()
+result = {'type': 'string', 'value': f'The education level most likely to be past due is: {past_due_education}'}
+        ```
+2024-04-16 09:56:45 [INFO] Executing Step 6: CodeExecution
+2024-04-16 09:56:45 [INFO] Executing Step 7: ResultValidation
+2024-04-16 09:56:45 [INFO] Answer: {'type': 'string', 'value': 'The education level most likely to be past due is: college'}
+2024-04-16 09:56:45 [INFO] Executing Step 8: ResultParsing
+2024-04-16 09:57:06 [INFO] Question: predict which education level is most likely to be past due
+2024-04-16 09:57:06 [INFO] Running PandasAI with openai LLM...
+2024-04-16 09:57:06 [INFO] Prompt ID: ac694a67-11c2-4eb9-be8e-cbf25cc4b4c8
+2024-04-16 09:57:06 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-16 09:57:06 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-16 09:57:06 [INFO] Executing Step 1: CacheLookup
+2024-04-16 09:57:06 [INFO] Using cached response
+2024-04-16 09:57:06 [INFO] Executing Step 2: PromptGeneration
+2024-04-16 09:57:06 [INFO] Executing Step 2: Skipping...
+2024-04-16 09:57:06 [INFO] Executing Step 3: CodeGenerator
+2024-04-16 09:57:06 [INFO] Executing Step 3: Skipping...
+2024-04-16 09:57:06 [INFO] Executing Step 4: CachePopulation
+2024-04-16 09:57:06 [INFO] Executing Step 4: Skipping...
+2024-04-16 09:57:06 [INFO] Executing Step 5: CodeCleaning
+2024-04-16 09:57:06 [INFO] 
+Code running:
+```
+data = {'Loan_ID': ['xqd25660470', 'xqd20160428', 'xqd20160416'], 'loan_status': ['COLLECTION', 'COLLECTION_PAIDOFF', 'PAIDOFF'], 'Principal': [800, 1000, 300], 'terms': [30, 7, 15], 'effective_date': ['9/9/2016', '9/8/2016', '9/12/2016'], 'due_date': ['9/23/2016', '9/24/2016', '10/12/2016'], 'paid_off_time': [None, '10/30/2016 14:19', '9/26/2016 11:35'], 'past_due_days': [None, 13.0, 19.0], 'age': [27, 30, 42], 'education': ['college', 'Bechalor', 'High School or Below'], 'Gender': ['male', 'female', 'male']}
+df = dfs[0]
+past_due_education = df[df['past_due_days'].notnull()]['education'].value_counts().idxmax()
+result = {'type': 'string', 'value': f'The education level most likely to be past due is: {past_due_education}'}
+        ```
+2024-04-16 09:57:06 [INFO] Executing Step 6: CodeExecution
+2024-04-16 09:57:06 [INFO] Executing Step 7: ResultValidation
+2024-04-16 09:57:06 [INFO] Answer: {'type': 'string', 'value': 'The education level most likely to be past due is: college'}
+2024-04-16 09:57:06 [INFO] Executing Step 8: ResultParsing
+2024-04-16 09:58:31 [INFO] Question: plot the difference between the paid off time and effective date? group this by education
+2024-04-16 09:58:31 [INFO] Running PandasAI with openai LLM...
+2024-04-16 09:58:31 [INFO] Prompt ID: ab4fb8a0-fb70-4a66-96a7-a77037f75817
+2024-04-16 09:58:31 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-16 09:58:31 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-16 09:58:31 [INFO] Executing Step 1: CacheLookup
+2024-04-16 09:58:31 [INFO] Using cached response
+2024-04-16 09:58:31 [INFO] Executing Step 2: PromptGeneration
+2024-04-16 09:58:31 [INFO] Executing Step 2: Skipping...
+2024-04-16 09:58:31 [INFO] Executing Step 3: CodeGenerator
+2024-04-16 09:58:31 [INFO] Executing Step 3: Skipping...
+2024-04-16 09:58:31 [INFO] Executing Step 4: CachePopulation
+2024-04-16 09:58:31 [INFO] Executing Step 4: Skipping...
+2024-04-16 09:58:31 [INFO] Executing Step 5: CodeCleaning
+2024-04-16 09:58:31 [INFO] Saving charts to C:\Users\AKlykov\PandasAI\exports\charts\temp_chart.png
+2024-04-16 09:58:31 [INFO] 
+Code running:
+```
+data = {'Loan_ID': ['xqd20160112', 'xqd20160443', 'xqd20182575'], 'loan_status': ['PAIDOFF', 'COLLECTION_PAIDOFF', 'COLLECTION'], 'Principal': [300, 900, 700], 'terms': [15, 30, 7], 'effective_date': ['9/10/2016', '9/12/2016', '9/9/2016'], 'due_date': ['10/25/2016', '9/18/2016', '9/17/2016'], 'paid_off_time': ['9/27/2016 7:48', None, '9/26/2016 11:35'], 'past_due_days': [None, 56.0, 14.0], 'age': [35, 42, 28], 'education': ['Bechalor', 'Master or Above', 'High School or Below'], 'Gender': ['male', 'female', 'male']}
+dfs[0]['effective_date'] = pd.to_datetime(dfs[0]['effective_date'])
+dfs[0]['paid_off_time'] = pd.to_datetime(dfs[0]['paid_off_time'])
+dfs[0]['paid_off_effective_diff'] = (dfs[0]['paid_off_time'] - dfs[0]['effective_date']).dt.days
+grouped_data = dfs[0].groupby('education')['paid_off_effective_diff'].mean()
+plt.figure(figsize=(10, 6))
+grouped_data.plot(kind='bar', color='skyblue')
+plt.title('Difference between Paid Off Time and Effective Date by Education')
+plt.xlabel('Education Level')
+plt.ylabel('Mean Difference (days)')
+plt.xticks(rotation=45)
+plt.grid(axis='y', linestyle='--', linewidth=0.5)
+plt.tight_layout()
+plt.savefig('C:/Users/AKlykov/PandasAI/exports/charts/temp_chart.png')
+result = {'type': 'plot', 'value': 'C:/Users/AKlykov/PandasAI/exports/charts/temp_chart.png'}
+        ```
+2024-04-16 09:58:31 [INFO] Executing Step 6: CodeExecution
+2024-04-16 09:58:31 [INFO] Executing Step 7: ResultValidation
+2024-04-16 09:58:31 [INFO] Answer: {'type': 'plot', 'value': 'C:/Users/AKlykov/PandasAI/exports/charts/temp_chart.png'}
+2024-04-16 09:58:31 [INFO] Executing Step 8: ResultParsing
+2024-04-16 10:01:42 [INFO] Question: plot the purchases made by age
+2024-04-16 10:01:42 [INFO] Running PandasAI with openai LLM...
+2024-04-16 10:01:42 [INFO] Prompt ID: 1dbacd9f-7501-476e-9360-e353d96f65d6
+2024-04-16 10:01:42 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-16 10:01:42 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-16 10:01:42 [INFO] Executing Step 1: CacheLookup
+2024-04-16 10:01:42 [INFO] Executing Step 2: PromptGeneration
+2024-04-16 10:01:45 [INFO] Using prompt: <dataframe>
+dfs[0]:400x3
+Age,EstimatedSalary,Purchased
+29,106000,1
+42,81000,1
+36,91000,0
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+
+
+
+
+### QUERY
+ plot the purchases made by age
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-04-16 10:01:45 [INFO] Executing Step 3: CodeGenerator
+2024-04-16 10:01:49 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-04-16 10:01:49 [INFO] Prompt used:
+            <dataframe>
+dfs[0]:400x3
+Age,EstimatedSalary,Purchased
+29,106000,1
+42,81000,1
+36,91000,0
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+
+
+
+
+### QUERY
+ plot the purchases made by age
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-04-16 10:01:49 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Data
+data = {'Age': [29, 42, 36],
+        'EstimatedSalary': [106000, 81000, 91000],
+        'Purchased': [1, 1, 0]}
+
+# Create DataFrame
+df = pd.DataFrame(data)
+
+# Plot purchases made by age
+plt.figure(figsize=(10, 6))
+plt.bar(df['Age'], df['Purchased'], color='skyblue')
+plt.xlabel('Age')
+plt.ylabel('Purchased')
+plt.title('Purchases Made by Age')
+plt.xticks(df['Age'])
+plt.grid(axis='y', linestyle='--', alpha=0.7)
+plt.show()
+
+# Declare result var
+result = {"type": "plot", "value": "purchases_by_age.png"}
+            ```
+            
+2024-04-16 10:01:49 [INFO] Executing Step 4: CachePopulation
+2024-04-16 10:01:49 [INFO] Executing Step 5: CodeCleaning
+2024-04-16 10:01:49 [INFO] Saving charts to C:\Users\AKlykov\PandasAI\exports\charts\temp_chart.png
+2024-04-16 10:01:49 [INFO] 
+Code running:
+```
+data = {'Age': [29, 42, 36], 'EstimatedSalary': [106000, 81000, 91000], 'Purchased': [1, 1, 0]}
+df = dfs[0]
+plt.figure(figsize=(10, 6))
+plt.bar(df['Age'], df['Purchased'], color='skyblue')
+plt.xlabel('Age')
+plt.ylabel('Purchased')
+plt.title('Purchases Made by Age')
+plt.xticks(df['Age'])
+plt.grid(axis='y', linestyle='--', alpha=0.7)
+plt.show()
+result = {'type': 'plot', 'value': 'C:/Users/AKlykov/PandasAI/exports/charts/temp_chart.png'}
+        ```
+2024-04-16 10:01:49 [INFO] Executing Step 6: CodeExecution
+2024-04-16 10:01:49 [INFO] Executing Step 7: ResultValidation
+2024-04-16 10:01:49 [INFO] Answer: {'type': 'plot', 'value': 'C:/Users/AKlykov/PandasAI/exports/charts/temp_chart.png'}
+2024-04-16 10:01:49 [INFO] Executing Step 8: ResultParsing
+2024-04-16 10:02:45 [INFO] Question: plot the purchases made by age.
+2024-04-16 10:02:45 [INFO] Running PandasAI with openai LLM...
+2024-04-16 10:02:45 [INFO] Prompt ID: 23fb469a-899e-4309-b4fe-6be1d86385af
+2024-04-16 10:02:45 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-16 10:02:45 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-16 10:02:45 [INFO] Executing Step 1: CacheLookup
+2024-04-16 10:02:45 [INFO] Executing Step 2: PromptGeneration
+2024-04-16 10:02:47 [INFO] Using prompt: <dataframe>
+dfs[0]:400x3
+Age,EstimatedSalary,Purchased
+24,75000,1
+18,55000,0
+37,96000,0
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+
+
+
+
+### QUERY
+ plot the purchases made by age.
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-04-16 10:02:47 [INFO] Executing Step 3: CodeGenerator
+2024-04-16 10:02:50 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-04-16 10:02:50 [INFO] Prompt used:
+            <dataframe>
+dfs[0]:400x3
+Age,EstimatedSalary,Purchased
+24,75000,1
+18,55000,0
+37,96000,0
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+
+
+
+
+### QUERY
+ plot the purchases made by age.
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-04-16 10:02:50 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Write code here
+df = dfs[0]
+
+# Plotting purchases made by age
+plt.figure(figsize=(10, 6))
+plt.bar(df['Age'], df['Purchased'], color='skyblue')
+plt.xlabel('Age')
+plt.ylabel('Purchased (1: Yes, 0: No)')
+plt.title('Purchases Made by Age')
+plt.grid(axis='y', linestyle='--', alpha=0.7)
+plt.show()
+
+# Declare result var
+result = {"type": "plot", "value": "purchases_by_age.png"}
+            ```
+            
+2024-04-16 10:02:50 [INFO] Executing Step 4: CachePopulation
+2024-04-16 10:02:50 [INFO] Executing Step 5: CodeCleaning
+2024-04-16 10:02:50 [INFO] Saving charts to C:\Users\AKlykov\PandasAI\exports\charts\temp_chart.png
+2024-04-16 10:02:50 [INFO] 
+Code running:
+```
+df = dfs[0]
+plt.figure(figsize=(10, 6))
+plt.bar(df['Age'], df['Purchased'], color='skyblue')
+plt.xlabel('Age')
+plt.ylabel('Purchased (1: Yes, 0: No)')
+plt.title('Purchases Made by Age')
+plt.grid(axis='y', linestyle='--', alpha=0.7)
+plt.show()
+result = {'type': 'plot', 'value': 'C:/Users/AKlykov/PandasAI/exports/charts/temp_chart.png'}
+        ```
+2024-04-16 10:02:50 [INFO] Executing Step 6: CodeExecution
+2024-04-16 10:02:50 [ERROR] Pipeline failed on step 6: [Errno 2] No such file or directory: 'C:/Users/AKlykov/PandasAI/exports/charts/temp_chart.png'
+2024-04-16 10:03:56 [INFO] Question: plot the purchases made by age.
+2024-04-16 10:03:56 [INFO] Running PandasAI with openai LLM...
+2024-04-16 10:03:56 [INFO] Prompt ID: 8bc6c2e4-29c0-4050-ba64-7388c752645c
+2024-04-16 10:03:56 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-16 10:03:56 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-16 10:03:56 [INFO] Executing Step 1: CacheLookup
+2024-04-16 10:03:56 [INFO] Using cached response
+2024-04-16 10:03:56 [INFO] Executing Step 2: PromptGeneration
+2024-04-16 10:03:56 [INFO] Executing Step 2: Skipping...
+2024-04-16 10:03:56 [INFO] Executing Step 3: CodeGenerator
+2024-04-16 10:03:56 [INFO] Executing Step 3: Skipping...
+2024-04-16 10:03:56 [INFO] Executing Step 4: CachePopulation
+2024-04-16 10:03:56 [INFO] Executing Step 4: Skipping...
+2024-04-16 10:03:56 [INFO] Executing Step 5: CodeCleaning
+2024-04-16 10:03:56 [INFO] Saving charts to C:\Users\AKlykov\PandasAI\exports\charts\temp_chart.png
+2024-04-16 10:03:56 [INFO] 
+Code running:
+```
+df = dfs[0]
+plt.figure(figsize=(10, 6))
+plt.bar(df['Age'], df['Purchased'], color='skyblue')
+plt.xlabel('Age')
+plt.ylabel('Purchased (1: Yes, 0: No)')
+plt.title('Purchases Made by Age')
+plt.grid(axis='y', linestyle='--', alpha=0.7)
+plt.show()
+result = {'type': 'plot', 'value': 'C:/Users/AKlykov/PandasAI/exports/charts/temp_chart.png'}
+        ```
+2024-04-16 10:03:56 [INFO] Executing Step 6: CodeExecution
+2024-04-16 10:03:56 [ERROR] Pipeline failed on step 6: [Errno 2] No such file or directory: 'C:/Users/AKlykov/PandasAI/exports/charts/temp_chart.png'
+2024-04-16 10:09:11 [INFO] Question: what is the highest salary
+2024-04-16 10:09:11 [INFO] Running PandasAI with openai LLM...
+2024-04-16 10:09:11 [INFO] Prompt ID: 77878dfa-023b-496b-ac02-aa7da5d3f8b8
+2024-04-16 10:09:11 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-16 10:09:11 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-16 10:09:11 [INFO] Executing Step 1: CacheLookup
+2024-04-16 10:09:11 [INFO] Executing Step 2: PromptGeneration
+2024-04-16 10:09:13 [INFO] Using prompt: <dataframe>
+dfs[0]:400x3
+Age,EstimatedSalary,Purchased
+22,104000,0
+55,31000,0
+42,22000,1
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+
+
+
+
+### QUERY
+ what is the highest salary
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-04-16 10:09:13 [INFO] Executing Step 3: CodeGenerator
+2024-04-16 10:09:15 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-04-16 10:09:15 [INFO] Prompt used:
+            <dataframe>
+dfs[0]:400x3
+Age,EstimatedSalary,Purchased
+22,104000,0
+55,31000,0
+42,22000,1
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+
+
+
+
+### QUERY
+ what is the highest salary
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-04-16 10:09:15 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+highest_salary = max(dfs[0]['EstimatedSalary'])
+
+# Declare result var
+result = { "type": "string", "value": f"The highest salary is {highest_salary}." }
+            ```
+            
+2024-04-16 10:09:15 [INFO] Executing Step 4: CachePopulation
+2024-04-16 10:09:15 [INFO] Executing Step 5: CodeCleaning
+2024-04-16 10:09:15 [INFO] 
+Code running:
+```
+highest_salary = max(dfs[0]['EstimatedSalary'])
+result = {'type': 'string', 'value': f'The highest salary is {highest_salary}.'}
+        ```
+2024-04-16 10:09:15 [INFO] Executing Step 6: CodeExecution
+2024-04-16 10:09:15 [INFO] Executing Step 7: ResultValidation
+2024-04-16 10:09:15 [INFO] Answer: {'type': 'string', 'value': 'The highest salary is 150000.'}
+2024-04-16 10:09:15 [INFO] Executing Step 8: ResultParsing
+2024-04-16 10:09:50 [INFO] Question: what is the highest salary
+2024-04-16 10:09:50 [INFO] Running PandasAI with openai LLM...
+2024-04-16 10:09:50 [INFO] Prompt ID: 7b7a6015-7c8d-4284-82d9-3927b9085f2a
+2024-04-16 10:09:50 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-04-16 10:09:50 [INFO] Executing Step 0: ValidatePipelineInput
+2024-04-16 10:09:50 [INFO] Executing Step 1: CacheLookup
+2024-04-16 10:09:50 [INFO] Using cached response
+2024-04-16 10:09:50 [INFO] Executing Step 2: PromptGeneration
+2024-04-16 10:09:50 [INFO] Executing Step 2: Skipping...
+2024-04-16 10:09:50 [INFO] Executing Step 3: CodeGenerator
+2024-04-16 10:09:50 [INFO] Executing Step 3: Skipping...
+2024-04-16 10:09:50 [INFO] Executing Step 4: CachePopulation
+2024-04-16 10:09:50 [INFO] Executing Step 4: Skipping...
+2024-04-16 10:09:50 [INFO] Executing Step 5: CodeCleaning
+2024-04-16 10:09:50 [INFO] 
+Code running:
+```
+highest_salary = max(dfs[0]['EstimatedSalary'])
+result = {'type': 'string', 'value': f'The highest salary is {highest_salary}.'}
+        ```
+2024-04-16 10:09:50 [INFO] Executing Step 6: CodeExecution
+2024-04-16 10:09:50 [INFO] Executing Step 7: ResultValidation
+2024-04-16 10:09:50 [INFO] Answer: {'type': 'string', 'value': 'The highest salary is 150000.'}
+2024-04-16 10:09:50 [INFO] Executing Step 8: ResultParsing
